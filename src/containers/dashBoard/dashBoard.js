@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { Route,Switch } from 'react-router-dom';
-import Home from '../home'
-import Chats from '../chats'
-import Info from '../info'
-import User from '../user'
+import Home from '../home/home'
+import Chats from '../chats/chats'
+import Info from '../info/info'
+import User from '../user/user'
 import { NavBar } from 'antd-mobile'
 import NavLinkBar from '../../components/nav-link-bar/nav-link-bar';
+import { Redirect } from 'react-router-dom'
 
 class DashBoard extends Component {
   constructor(props) {
@@ -57,7 +58,10 @@ class DashBoard extends Component {
             }
           </NavBar> : null
         }
-        <div style={{marginTop:55,marginBottom:45}}>
+        {
+          pathname === "/" ? <Redirect to="/Home"></Redirect> : null
+        }
+        <div style={{marginTop:45,marginBottom:45}}>
           <Switch>
             {
               navList.map(v=>(

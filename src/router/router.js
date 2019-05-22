@@ -8,7 +8,7 @@ import {
 // import Chats from '../containers/chats'
 // import Info from '../containers/info'
 // import User from '../containers/user'
-import DashBoard from '../containers/dashBoard'
+import DashBoard from '../containers/dashBoard/dashBoard'
 
 class Routers extends Component {
   constructor(props) {
