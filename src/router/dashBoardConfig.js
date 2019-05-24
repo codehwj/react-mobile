@@ -37,5 +37,5 @@ export default {
       hide:false
     }
   ],
-  RedirectRouter: '/User'
+  RedirectRouter: '/Chats'                          // 重定向路由, 没有路由路径时默认执行该路由
 }

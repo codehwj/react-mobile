@@ -4,10 +4,6 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-// import Home from '../containers/home'
-// import Chats from '../containers/chats'
-// import Info from '../containers/info'
-// import User from '../containers/user'
 import DashBoard from '../containers/dashBoard/dashBoard'
 
 class Routers extends Component {
@@ -21,10 +17,9 @@ class Routers extends Component {
       <BrowserRouter>
         <div>
           <Switch>
-            {/* <Route path="/Home" component={Home}></Route>
-            <Route path="/Chats" component={Chats}></Route>
-            <Route path="/Info" component={Info}></Route>
-            <Route path="/User" component={User}></Route> */}
+            {/* <Route path="/Login" component={Login}></Route>
+            <Route path="/Register" component={Register}></Route>
+             */}
             <Route component={DashBoard}></Route>
           </Switch>
         </div>
