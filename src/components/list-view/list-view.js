@@ -2,37 +2,7 @@
 import React, { Component } from 'react'
 import { ListView } from 'antd-mobile'
 import DataClass from 'jscommon/DataClass'
-
-const data = [
-  {
-    img: 'https://zos.alipayobjects.com/rmsportal/dKbkpPXKfvZzWCM.png',
-    title: 'Meet hotel',
-    des: '不是所有的兼职汪都需要风吹日晒',
-  },
-  {
-    img: 'https://zos.alipayobjects.com/rmsportal/XmwCzSeJiqpkuMB.png',
-    title: 'McDonald\'s invites you',
-    des: '不是所有的兼职汪都需要风吹日晒',
-  },
-  {
-    img: 'https://zos.alipayobjects.com/rmsportal/hfVtzEhPzTUewPm.png',
-    title: 'Eat the week',
-    des: '不是所有的兼职汪都需要风吹日晒',
-  },
-];
-// const NUM_ROWS = 10;
-let pageIndex = 0;
-
-function genData(pIndex = 0, NUM_ROWS) {
-  const dataBlob = {};
-  for (let i = 0; i < NUM_ROWS; i++) {
-    const ii = (pIndex * NUM_ROWS) + i;
-    dataBlob[`${ii}`] = `row - ${ii}`;
-  }
-  console.log(dataBlob);
-  
-  return dataBlob;
-}
+import { arrarTurnObject } from 'jscommon/common'
 
 class ListViews extends Component {
   constructor(props) {
@@ -46,24 +16,21 @@ class ListViews extends Component {
     };
   }
 
-  loadGoods() {
-    DataClass.mockdata('/goods/getAllGoods', {}).then(result => {
-      this.rData = {...this.rData, ...result};
-      console.log(this.rData);
-      
-      this.setState({
-        dataSource: this.state.dataSource.cloneWithRows(result),
-        isLoading: false,
-        data: result
-      });
-      return result;
-    })
-    // return genData(index, result.length);
+  async loadGoods() {
+    return await DataClass.mockdata('/goods/getAllGoods', {});
   }
 
   componentDidMount() {
     setTimeout(() => {
-      this.loadGoods();
+      this.loadGoods().then(result => {
+        let data = result.data
+        this.rData = { ...this.rData, ...data };
+        this.setState({
+          dataSource: this.state.dataSource.cloneWithRows(this.rData),
+          isLoading: false,
+          data: data
+        });
+      })
     }, 600);
   }
 
@@ -73,8 +40,16 @@ class ListViews extends Component {
     }
     this.setState({ isLoading: true });
     setTimeout(() => {
-      this.loadGoods();
-
+      this.loadGoods().then(result => {
+        let data = result.data;
+        let obj = arrarTurnObject(data, Object.keys(this.rData).length);
+        this.rData = { ...this.rData,  ...obj};
+        this.setState({
+          dataSource: this.state.dataSource.cloneWithRows(this.rData),
+          isLoading: false,
+          data: data
+        });
+      })
     }, 1000);
   }
 
@@ -90,25 +65,25 @@ class ListViews extends Component {
     );
     const row = (rowData, sectionID, rowID) => {
       // console.log(rowData)
-        return (
-          <div key={rowID} style={{ padding: '0 15px' }}>
-            <div
-              style={{
-                lineHeight: '50px',
-                color: '#888',
-                fontSize: 18,
-                borderBottom: '1px solid #F6F6F6',
-              }}
-            >{rowData.title}</div>
-            <div style={{ display: 'flex', padding: '15px 0' }}>
-              <img style={{ height: '64px', marginRight: '15px' }} src={rowData.img} alt="" />
-              <div style={{ lineHeight: 1 }}>
-                <div style={{ marginBottom: '8px', fontWeight: 'bold' }}>{rowData.des}</div>
-                <div style={{ textAlign: 'left' }}><span style={{ fontSize: '30px', color: '#FF6E27' }}>{rowID}</span>¥</div>
-              </div>
+      return (
+        <div key={rowID} style={{ padding: '0 15px' }}>
+          <div
+            style={{
+              lineHeight: '50px',
+              color: '#888',
+              fontSize: 18,
+              borderBottom: '1px solid #F6F6F6',
+            }}
+          >{rowData.title}</div>
+          <div style={{ display: 'flex', padding: '15px 0' }}>
+            <img style={{ height: '64px', marginRight: '15px' }} src={rowData.img} alt="" />
+            <div style={{ lineHeight: 1 }}>
+              <div style={{ marginBottom: '8px', fontWeight: 'bold' }}>{rowData.des}</div>
+              <div style={{ textAlign: 'left' }}><span style={{ fontSize: '30px', color: '#FF6E27' }}>{rowID}</span>¥</div>
             </div>
           </div>
-        );
+        </div>
+      );
     };
     return (
       <ListView

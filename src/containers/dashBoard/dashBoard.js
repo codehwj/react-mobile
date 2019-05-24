@@ -1,53 +1,19 @@
 import React, { Component } from 'react'
 import { Route,Switch } from 'react-router-dom';
-import Home from '../home/home'
-import Chats from '../chats/chats'
-import Info from '../info/info'
-import User from '../user/user'
 import { NavBar } from 'antd-mobile'
 import NavLinkBar from '../../components/nav-link-bar/nav-link-bar';
 import { Redirect } from 'react-router-dom'
+import dashBoardConfig from '@src/router/dashBoardConfig'
 
 class DashBoard extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-
+  
   render(h) {
     const { pathname } = this.props.location;
-    const navList = [
-      {
-        path:'/Home',
-        text:'首页',
-        icon:'job',
-        title:'首页',
-        component:Home,
-        hide:false
-      }, {
-        path:'/Chats',
-        text:'图表',
-        icon:'boss',
-        title:'图表',
-        component:Chats,
-        hide:false
-      }, {
-        path:'/Info',
-        text:'信息',
-        icon:'msg',
-        title:'信息',
-        component:Info,
-        hide:false
-      }, {
-        path:'/User',
-        text:'我的',
-        icon:'user',
-        title:'我的',
-        component:User,
-        hide:false
-      }
-    ]
-    
+    const {navList, RedirectRouter} = dashBoardConfig;
     return (
       <div>
         {
@@ -59,7 +25,7 @@ class DashBoard extends Component {
           </NavBar> : null
         }
         {
-          pathname === "/" ? <Redirect to="/Home"></Redirect> : null
+          pathname === "/" ? <Redirect to={RedirectRouter}></Redirect> : null
         }
         <div style={{marginTop:45,marginBottom:45}}>
           <Switch>
