@@ -1,15 +1,26 @@
 import React, { Component } from 'react'
-import { Carousel, WingBlank, Grid, WhiteSpace } from 'antd-mobile';
-import ListView from '../../components/list-view/list-view'
-import './index.css';
-import DataClass from 'jscommon/DataClass';
+import { connect } from 'react-redux'
+import {loadStoreListView} from '@action/home'
+import { Carousel, WingBlank, Grid, WhiteSpace, ListView } from 'antd-mobile';
+import JListView from '../../components/j-list-view/j-list-view'
+import './index.css'
+import DataClass from 'jscommon/DataClass'
+
+@connect(
+  state=>state,
+  {loadStoreListView}
+)
 
 class Home extends Component {
   constructor(props) {
     super(props);
+    const dataSource = new ListView.DataSource({
+      rowHasChanged: (row1, row2) => row1 !== row2,
+    });
     this.state = {
-      data: ['AiyWuByWklrrUDlFignR', 'TekJlZRVCjLFexlOCuWn', 'IJOtIlfsYdTyaDTRVrLI'],
-      imgHeight: 176
+      imgHeight: 176,
+      dataSource,
+      isLoading: true,
     };
   }
 
@@ -25,7 +36,24 @@ class Home extends Component {
     this.setState({
       gridData: result
     })
+  }
+  async loadGoods() {
+    return await DataClass.mockdata('/goods/getAllGoods', {});
+  }
 
+  onEndReached = (event) => {
+    if (this.state.isLoading && !this.state.hasMore) {
+      return;
+    }
+    this.setState({ isLoading: true });
+    setTimeout(() => {
+      this.props.loadStoreListView();
+      this.setState({
+        dataSource: this.state.dataSource.cloneWithRows(this.props.hoem.homeStoreList.dataSource),
+        isLoading: false,
+      })
+      
+    }, 1000);
   }
 
 
@@ -33,6 +61,13 @@ class Home extends Component {
     setTimeout(() => {
       this.loadCarouselData();
       this.loadGridData();
+      this.props.loadStoreListView().then(result => {
+        this.setState({
+          dataSource: this.state.dataSource.cloneWithRows(this.props.home.homeStoreList.dataSource),
+          isLoading: false,
+        })
+      })
+      
     }, 100);
   }
 
@@ -82,7 +117,7 @@ class Home extends Component {
             <Grid data={this.state.gridData} columnNum="5" carouselMaxRow="1" isCarousel onClick={_el => console.log(_el)} /> : null
         }
         <WhiteSpace size="sm" />
-        <ListView></ListView>
+        <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.state.dataSource}></JListView>
       </WingBlank>
     )
   }
