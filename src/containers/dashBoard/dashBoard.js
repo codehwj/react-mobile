@@ -3,7 +3,7 @@ import { Route,Switch } from 'react-router-dom';
 import { NavBar } from 'antd-mobile'
 import NavLinkBar from '../../components/nav-link-bar/nav-link-bar';
 import { Redirect } from 'react-router-dom'
-import dashBoardConfig from '@src/router/dashBoardConfig'
+import {routeConfig} from '@src/router/dashBoardConfig'
 
 class DashBoard extends Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class DashBoard extends Component {
   
   render(h) {
     const { pathname } = this.props.location;
-    const {navList, RedirectRouter} = dashBoardConfig;
+    const {navList, RedirectRouter} = routeConfig;
     return (
       <div>
         {

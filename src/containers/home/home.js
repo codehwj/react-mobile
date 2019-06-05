@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {loadStoreListView} from '@action/home'
+import { loadStoreListView, loadCarouselData, loadGridData } from '@action/home'
 import { Carousel, WingBlank, Grid, WhiteSpace, ListView } from 'antd-mobile';
 import JListView from '../../components/j-list-view/j-list-view'
 import './index.css'
-import DataClass from 'jscommon/DataClass'
 
 @connect(
-  state=>state,
-  {loadStoreListView}
+  state => state,
+  { 
+    loadStoreListView,
+    loadCarouselData,
+    loadGridData
+  }
 )
 
 class Home extends Component {
@@ -24,21 +27,14 @@ class Home extends Component {
     };
   }
 
-  async loadCarouselData() {
-    const result = await DataClass.mockdata('/carousel/getAllCarousel', {});
-    this.setState({
-      carouselData: result
-    })
-  }
+  async loadStoreList() {
+    this.props.loadStoreListView().then(result => {
+      this.setState({
+        dataSource: this.state.dataSource.cloneWithRows(this.props.home.dataSource),
+        isLoading: false,
+      })
+    });
 
-  async loadGridData() {
-    const result = await DataClass.mockdata('/grid/getAllGrid', {})
-    this.setState({
-      gridData: result
-    })
-  }
-  async loadGoods() {
-    return await DataClass.mockdata('/goods/getAllGoods', {});
   }
 
   onEndReached = (event) => {
@@ -47,27 +43,21 @@ class Home extends Component {
     }
     this.setState({ isLoading: true });
     setTimeout(() => {
-      this.props.loadStoreListView();
-      this.setState({
-        dataSource: this.state.dataSource.cloneWithRows(this.props.hoem.homeStoreList.dataSource),
-        isLoading: false,
+      this.props.loadStoreListView().then(result => {
+        this.setState({
+          isLoading: false,
+          dataSource: this.state.dataSource.cloneWithRows(this.props.home.dataSource)
+        })
       })
-      
     }, 1000);
   }
 
 
   componentDidMount() {
     setTimeout(() => {
-      this.loadCarouselData();
-      this.loadGridData();
-      this.props.loadStoreListView().then(result => {
-        this.setState({
-          dataSource: this.state.dataSource.cloneWithRows(this.props.home.homeStoreList.dataSource),
-          isLoading: false,
-        })
-      })
-      
+      this.props.loadCarouselData();
+      this.props.loadGridData();
+      this.loadStoreList();
     }, 100);
   }
 
@@ -75,7 +65,7 @@ class Home extends Component {
     return (
       <WingBlank size="xs">
         {
-          this.state.carouselData ?
+          this.props.home.carouselData ?
             <Carousel className="space-carousel"
               frameOverflow="visible"
               cellSpacing={10}
@@ -84,7 +74,7 @@ class Home extends Component {
               infinite
               afterChange={index => this.setState({ slideIndex: index })}
             >
-              {this.state.carouselData.map((item, index) => (
+              {this.props.home.carouselData.map((item, index) => (
                 <a
                   key={index}
                   href={item.Url}
@@ -113,8 +103,8 @@ class Home extends Component {
 
         <WhiteSpace size="sm" />
         {
-          this.state.gridData ?
-            <Grid data={this.state.gridData} columnNum="5" carouselMaxRow="1" isCarousel onClick={_el => console.log(_el)} /> : null
+          this.props.home.gridData ?
+            <Grid data={this.props.home.gridData} columnNum="5" carouselMaxRow="1" isCarousel onClick={_el => console.log(_el)} /> : null
         }
         <WhiteSpace size="sm" />
         <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.state.dataSource}></JListView>

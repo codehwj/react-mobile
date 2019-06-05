@@ -4,8 +4,7 @@ import Chats from '../containers/chats/chats'
 import Info from '../containers/info/info'
 import User from '../containers/user/user'
 
-
-export default {
+export const routeConfig = {
   navList : [
     {
       path:'/Home',
@@ -37,5 +36,5 @@ export default {
       hide:false
     }
   ],
-  RedirectRouter: '/Home'                          // 重定向路由, 没有路由路径时默认执行该路由
+  RedirectRouter: '/Chats'                          // 重定向路由, 没有路由路径时默认执行该路由
 }
