@@ -38,6 +38,7 @@ let img_text = [
 export default Mock.mock({
   'data|4-10': [
     {
+      'id': () => Random.id(),
       'Date': () => Random.date(), // 生成一个随机日期,可加参数定义日期格式
       'img': () => Random.image('375x200', '#02adea', img_text[Math.floor(Math.random() * img_text.length)]), // Random.size表示将从size数据中任选一个数据
       'title': () => Random.word(10), //生成2至5个句子的文本

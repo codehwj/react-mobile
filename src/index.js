@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index/index.css';
 import App from './index/App';
 import * as serviceWorker from './index/serviceWorker';
-require('./mock');
+// require('./mock');
+import './mock'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

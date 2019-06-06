@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { loadStoreListView, loadCarouselData, loadGridData } from '@action/home'
-import { Carousel, WingBlank, Grid, WhiteSpace, ListView } from 'antd-mobile';
+import { Carousel, WingBlank, Grid, WhiteSpace } from 'antd-mobile';
 import JListView from '../../components/j-list-view/j-list-view'
 import './index.css'
 
 @connect(
   state => state,
-  { 
+  {
     loadStoreListView,
     loadCarouselData,
     loadGridData
@@ -17,51 +17,51 @@ import './index.css'
 class Home extends Component {
   constructor(props) {
     super(props);
-    const dataSource = new ListView.DataSource({
-      rowHasChanged: (row1, row2) => row1 !== row2,
-    });
+  
     this.state = {
       imgHeight: 176,
-      dataSource,
       isLoading: true,
     };
   }
 
   async loadStoreList() {
-    this.props.loadStoreListView().then(result => {
-      this.setState({
-        dataSource: this.state.dataSource.cloneWithRows(this.props.home.dataSource),
-        isLoading: false,
-      })
-    });
+    this.props.loadStoreListView();
+    this.setState({
+      isLoading: false,
+    })
 
   }
 
   onEndReached = (event) => {
-    if (this.state.isLoading && !this.state.hasMore) {
+    if (this.state.isLoading) {
       return;
     }
     this.setState({ isLoading: true });
     setTimeout(() => {
-      this.props.loadStoreListView().then(result => {
-        this.setState({
-          isLoading: false,
-          dataSource: this.state.dataSource.cloneWithRows(this.props.home.dataSource)
-        })
-      })
+      this.loadStoreList();
     }, 1000);
   }
 
 
   componentDidMount() {
     setTimeout(() => {
-      this.props.loadCarouselData();
-      this.props.loadGridData();
-      this.loadStoreList();
+      if (this.props.home.carouselData == null) {
+        this.props.loadCarouselData();
+      }
+      if (this.props.home.gridData == null) {
+        this.props.loadGridData();
+      }
+      if (this.props.home.dataSource == null) {
+        this.loadStoreList();
+      } else {
+        this.setState({
+          isLoading: false
+        })
+      }
     }, 100);
   }
 
-  render(h) {
+  render() {
     return (
       <WingBlank size="xs">
         {
@@ -91,7 +91,6 @@ class Home extends Component {
                     alt=""
                     style={{ width: '100%', verticalAlign: 'top' }}
                     onLoad={() => {
-                      // fire window resize event to change height
                       window.dispatchEvent(new Event('resize'));
                       this.setState({ imgHeight: 'auto' });
                     }}
@@ -100,14 +99,16 @@ class Home extends Component {
               ))}
             </Carousel> : null
         }
-
         <WhiteSpace size="sm" />
         {
           this.props.home.gridData ?
-            <Grid data={this.props.home.gridData} columnNum="5" carouselMaxRow="1" isCarousel onClick={_el => console.log(_el)} /> : null
+            <Grid data={this.props.home.gridData} columnNum="6" carouselMaxRow="2" isCarousel onClick={_el => console.log(_el)} /> : null
         }
         <WhiteSpace size="sm" />
-        <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.state.dataSource}></JListView>
+        {
+          this.props.home.dataSource != null ?
+            <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.props.home.dataSource}></JListView> : null
+        }
       </WingBlank>
     )
   }

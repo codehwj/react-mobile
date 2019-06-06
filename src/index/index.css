@@ -22,7 +22,7 @@ body::after {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #fff;
+  background: rgb(245, 245, 249);
   z-index: -1;
 }
 

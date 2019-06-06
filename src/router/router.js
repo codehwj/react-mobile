@@ -18,14 +18,12 @@ class Routers extends Component {
   render(h) {
     return (
       <BrowserRouter>
-        <div>
-          <Switch>
-            <Route path="/Login" component={Login}></Route>
-            <Route path="/Register" component={Register}></Route>
-            <Route path="/goodsDetail/:goodsId" component={GoodsDetail}></Route>
-            <Route component={DashBoard}></Route>
-          </Switch>
-        </div>
+        <Switch>
+          <Route path="/Login" component={Login}></Route>
+          <Route path="/Register" component={Register}></Route>
+          <Route path="/goodsDetail/:goodsId" component={GoodsDetail}></Route>
+          <Route component={DashBoard}></Route>
+        </Switch>
       </BrowserRouter>
     )
   }

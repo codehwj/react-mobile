@@ -32,7 +32,7 @@ export default class DetailFooter extends Component {
         <div className="Grid-cell cell">
           {
             buttons.map((item, index) => (
-              <button><Icon key={index} type={item.type} size='xs' onClick={() => {this.handlerButtonClick(item)}}/>{item.name}</button>
+              <button key={index}><Icon type={item.type} size='xs' onClick={() => {this.handlerButtonClick(item)}}/>{item.name}</button>
             ))
           }
         </div>
