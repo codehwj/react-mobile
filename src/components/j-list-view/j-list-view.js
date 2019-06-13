@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import { ListView } from 'antd-mobile'
+import { throttle } from 'jscommon/common'
 import ListRow from '../list-row/list-row'
 @withRouter
 
@@ -43,7 +44,11 @@ class ListViews extends Component {
           className="am-list"
           pageSize={4}
           useBodyScroll
-          onScroll={() => { console.log('scroll'); }}
+          onScroll={throttle(
+            () => {
+              console.log('scroll')
+              },
+             3000)}
           scrollRenderAheadDistance={500}
           onEndReached={this.props.onEndReached}
           onEndReachedThreshold={10}

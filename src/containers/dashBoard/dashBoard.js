@@ -13,7 +13,8 @@ class DashBoard extends Component {
   
   render(h) {
     const { pathname } = this.props.location;
-    const {navList, RedirectRouter} = routeConfig;
+    const { navList, RedirectRouter } = routeConfig;
+    console.log(navList);
     return (
       <div>
         {

@@ -4,6 +4,7 @@ import Chats from '../containers/chats/chats'
 import Info from '../containers/info/info'
 import User from '../containers/user/user'
 
+console.log(Home)
 export const routeConfig = {
   navList : [
     {

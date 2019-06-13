@@ -12,6 +12,8 @@ export default function () {
         return merge({}, state, action.payload);
       case HOME.SET_ALL_GRID:
         return merge({}, state, action.payload);
+      case HOME.CLEAN:
+        return merge({}, initialState, {});
       default:
         return state;
     }

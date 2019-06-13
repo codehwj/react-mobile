@@ -1,33 +1,32 @@
 import React, { Component } from 'react'
 import { Card, WingBlank, WhiteSpace } from 'antd-mobile'
-import DataClass from 'jscommon/DataClass'
+import { connect } from 'react-redux'
+import { getChatsList } from '@action/chats'
 
+@connect(
+  state=>state,
+  {
+    getChatsList
+  }
+)
 class Chats extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-  async initData() {
-    return await DataClass.mockdata('/chats/getAllCartlist', {});
-  }
 
   componentDidMount() {
-    this.initData().then(result => {
-      console.log(result);
-      this.setState({
-        data: result.list
-      })
-    })
+    setTimeout(() => {
+      this.props.getChatsList();
+    }, 400);
   }
-
-
-  render(h) {
+  render() {
     return (
       <div>
         <WingBlank size="md">
           {
-            this.state.data && this.state.data.length > 0 ?
-              this.state.data.map((item, index) => (
+            this.props.chats.chatsList && this.props.chats.chatsList.length > 0 ?
+              this.props.chats.chatsList.map((item, index) => (
                 <div key={index}>
                   <WhiteSpace size="md" />
                   <Card onClick={() => console.log(item)}>

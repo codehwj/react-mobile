@@ -5,7 +5,12 @@
   "homepage": ".",
   "dependencies": {
     "@babel/core": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/runtime-corejs2": "^7.4.5",
     "@svgr/webpack": "4.1.0",
     "antd-mobile": "^2.1.1",
     "axios": "0.18.0",
@@ -45,7 +50,7 @@
     "mini-css-extract-plugin": "0.5.0",
     "mockjs": "^1.0.1-beta3",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.10.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.2.1",
     "postcss-flexbugs-fixes": "4.1.0",
@@ -143,11 +148,19 @@
         }
       ],
       [
+        "@babel/plugin-transform-runtime",
+        {
+          "corejs": 2
+        }
+      ],
+      "@babel/plugin-transform-object-assign",
+      [
         "@babel/plugin-proposal-decorators",
         {
           "legacy": true
         }
-      ]
+      ],
+      "@babel/plugin-proposal-class-properties"
     ]
   }
 }

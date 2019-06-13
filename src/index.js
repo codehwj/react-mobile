@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import './index/index.css';
 import App from './index/App';
 import * as serviceWorker from './index/serviceWorker';
-// require('./mock');
 import './mock'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

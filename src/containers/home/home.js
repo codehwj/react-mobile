@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { loadStoreListView, loadCarouselData, loadGridData } from '@action/home'
-import { Carousel, WingBlank, Grid, WhiteSpace } from 'antd-mobile';
+import { Carousel, WingBlank, Grid, WhiteSpace } from 'antd-mobile'
 import JListView from '../../components/j-list-view/j-list-view'
 import './index.css'
 
