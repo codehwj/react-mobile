@@ -1,5 +1,7 @@
 .space-carousel {
-  padding: 16px;
   /* background: #DEF1E5; */
   overflow: hidden;
+}
+.block-wrapper {
+  background-color: #fff;
 }

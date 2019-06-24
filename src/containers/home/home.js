@@ -1,23 +1,15 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { loadStoreListView, loadCarouselData, loadGridData } from '@action/home'
+import DataClass from 'jscommon/DataClass';
 import { Carousel, WingBlank, Grid, WhiteSpace } from 'antd-mobile'
-import JListView from '../../components/j-list-view/j-list-view'
+import Recomment from '../../components/recommend/recommend'
+// import JListView from '../../components/j-list-view/j-list-view'
+import ListBlock from '../../components/list-block/list-block'
 import './index.css'
-
-@connect(
-  state => state,
-  {
-    loadStoreListView,
-    loadCarouselData,
-    loadGridData
-  }
-)
 
 class Home extends Component {
   constructor(props) {
     super(props);
-  
+
     this.state = {
       imgHeight: 176,
       isLoading: true,
@@ -29,7 +21,14 @@ class Home extends Component {
     this.setState({
       isLoading: false,
     })
-
+  }
+  async getAllHomeData() {
+    const response = await DataClass.mockdata('/home/getAllHomeData', {})
+    if (response.code === '200') {
+      this.setState({
+        result: response.result
+      })
+    }
   }
 
   onEndReached = (event) => {
@@ -45,71 +44,49 @@ class Home extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      if (this.props.home.carouselData == null) {
-        this.props.loadCarouselData();
-      }
-      if (this.props.home.gridData == null) {
-        this.props.loadGridData();
-      }
-      if (this.props.home.dataSource == null) {
-        this.loadStoreList();
-      } else {
-        this.setState({
-          isLoading: false
-        })
-      }
+      this.getAllHomeData();
     }, 100);
   }
 
   render() {
     return (
-      <WingBlank size="xs">
-        {
-          this.props.home.carouselData ?
-            <Carousel className="space-carousel"
-              frameOverflow="visible"
-              cellSpacing={10}
-              slideWidth={0.8}
-              autoplay
-              infinite
-              afterChange={index => this.setState({ slideIndex: index })}
-            >
-              {this.props.home.carouselData.map((item, index) => (
-                <a
-                  key={index}
-                  href={item.Url}
-                  style={{
-                    display: 'block',
-                    position: 'relative',
-                    top: this.state.slideIndex === index ? -10 : 0,
-                    height: this.state.imgHeight,
-                    boxShadow: '2px 1px 1px rgba(0, 0, 0, 0.2)',
+      this.state.result &&
+        <WingBlank size="md">
+          <WhiteSpace size="md" />
+          <Carousel className="space-carousel"
+            autoplay={false}
+            infinite
+          >
+            {this.state.result.bannerInfo.map((item, index) => (
+              <a
+                key={index}
+                href={item.url}
+                style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight, borderRadius: 5, overflow: 'hidden' }}
+              >
+                <img
+                  src={item.imgUrl}
+                  alt=""
+                  style={{ width: '100%', verticalAlign: 'top' }}
+                  onLoad={() => {
+                    window.dispatchEvent(new Event('resize'));
+                    this.setState({ imgHeight: 'auto' });
                   }}
-                >
-                  <img
-                    src={item.image_src}
-                    alt=""
-                    style={{ width: '100%', verticalAlign: 'top' }}
-                    onLoad={() => {
-                      window.dispatchEvent(new Event('resize'));
-                      this.setState({ imgHeight: 'auto' });
-                    }}
-                  />
-                </a>
-              ))}
-            </Carousel> : null
-        }
-        <WhiteSpace size="sm" />
-        {
-          this.props.home.gridData ?
-            <Grid data={this.props.home.gridData} columnNum="6" carouselMaxRow="2" isCarousel onClick={_el => console.log(_el)} /> : null
-        }
-        <WhiteSpace size="sm" />
-        {
-          this.props.home.dataSource != null ?
-            <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.props.home.dataSource}></JListView> : null
-        }
-      </WingBlank>
+                />
+              </a>
+            ))}
+          </Carousel>
+
+          <WhiteSpace size="md" />
+          <Grid data={this.state.result.frontCateInfo} columnNum="6" carouselMaxRow="1" isCarousel onClick={_el => console.log(_el)} />
+          <WhiteSpace size="md" />
+          <Recomment mktInfo={this.state.result.mktInfo}></Recomment>
+          <WhiteSpace size="md" />
+          <div className="block-wrapper">
+            <ListBlock></ListBlock>
+          </div>
+          {/* /* <WhiteSpace size="sm" /> */}
+          {/* <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.props.home.dataSource}></JListView> : null */}
+        </WingBlank>
     )
   }
 }

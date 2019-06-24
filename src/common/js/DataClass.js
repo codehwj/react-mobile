@@ -18,7 +18,7 @@ export function fetch(url, params) {
 }
 
 export default {
-  mockdata(url, params) {
+  async mockdata(url, params) {
     return fetch(url, params);
   }
 }

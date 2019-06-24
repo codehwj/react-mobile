@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index/index.css';
+import './common/css/default.css'
 import App from './index/App';
 import * as serviceWorker from './index/serviceWorker';
 import './mock'

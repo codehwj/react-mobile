@@ -38,6 +38,7 @@ export function RandomColor() {
   return "#" + Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0");
 }
 
+
 /**
  * @author hwj
  * @dete 2019-06-10

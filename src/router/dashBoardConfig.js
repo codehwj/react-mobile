@@ -1,10 +1,10 @@
 
 import Home from '../containers/home/home'
-import Chats from '../containers/chats/chats'
-import Info from '../containers/info/info'
+import Classify from '../containers/classify/classify'
+import Interest from '../containers/interest/interest'
 import User from '../containers/user/user'
+import Ticket from '../containers/ticket/ticket'
 
-console.log(Home)
 export const routeConfig = {
   navList : [
     {
@@ -15,27 +15,34 @@ export const routeConfig = {
       component:Home,
       hide:false
     }, {
-      path:'/Chats',
-      text:'图表',
+      path:'/Classify',
+      text:'分类',
       icon:'boss',
-      title:'图表',
-      component:Chats,
+      title:'分类',
+      component:Classify,
       hide:false
     }, {
-      path:'/Info',
-      text:'通知',
+      path:'/Interest',
+      text:'同趣',
       icon:'msg',
-      title:'通知',
-      component:Info,
+      title:'同趣',
+      component:Interest,
+      hide:false
+    }, {
+      path:'/Ticket',
+      text:'转票',
+      icon:'msg',
+      title:'转票',
+      component:Ticket,
       hide:false
     }, {
       path:'/User',
-      text:'我的',
+      text:'我',
       icon:'user',
-      title:'我的',
+      title:'我',
       component:User,
       hide:false
     }
   ],
-  RedirectRouter: '/Chats'                          // 重定向路由, 没有路由路径时默认执行该路由
+  RedirectRouter: '/Home'                          // 重定向路由, 没有路由路径时默认执行该路由
 }

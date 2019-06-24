@@ -14,7 +14,6 @@ class DashBoard extends Component {
   render(h) {
     const { pathname } = this.props.location;
     const { navList, RedirectRouter } = routeConfig;
-    console.log(navList);
     return (
       <div>
         {
@@ -28,7 +27,7 @@ class DashBoard extends Component {
         {
           pathname === "/" ? <Redirect to={RedirectRouter}></Redirect> : null
         }
-        <div style={{marginTop:45,marginBottom:45}}>
+        <div style={{marginTop:45,marginBottom:64}}>
           <Switch>
             {
               navList.map(v=>(

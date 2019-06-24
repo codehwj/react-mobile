@@ -1,0 +1,2128 @@
+{
+  "code": "200",
+  "msg": "success",
+  "result": {
+    "bannerInfo": [
+      {
+        "imgUrl": "http:\/\/image5.xishiqu.cn\/upload\/apic\/920\/190\/920190604\/\/6C8B6991-30F2-241C-2609-028D39ED8A10.jpg",
+        "url": "http:\/\/m.xishiqu.com\/activity\/xash?specialId=81"
+      },
+      {
+        "imgUrl": "http:\/\/image5.xishiqu.cn\/upload\/apic\/920\/190\/920190604\/\/3D78C6E7-86D7-96B5-666D-7735F831EC4F.jpg",
+        "url": "http:\/\/m.xishiqu.com\/activity\/xuweyanchanghuishz?specialId=81"
+      }
+    ],
+    "frontCateInfo": [
+      {
+        "pinyinName": "yanchanghui",
+        "text": "\u6f14\u5531\u4f1a",
+        "isCustom": 0,
+        "code": "4000"
+      },
+      {
+        "pinyinName": "huajugeju",
+        "text": "\u8bdd\u5267\u6b4c\u5267",
+        "isCustom": 0,
+        "code": "5000"
+      },
+      {
+        "pinyinName": "xiuxianyule",
+        "text": "\u4f11\u95f2\u5a31\u4e50",
+        "isCustom": 0,
+        "code": "B000"
+      },
+      {
+        "pinyinName": "film",
+        "text": "\u7535\u5f71",
+        "isCustom": 0,
+        "code": "C000"
+      },
+      {
+        "pinyinName": "tiyusaishi",
+        "text": "\u4f53\u80b2\u8d5b\u4e8b",
+        "isCustom": 0,
+        "code": "A000"
+      },
+      {
+        "pinyinName": "ertongqinzi",
+        "text": "\u513f\u7ae5\u4eb2\u5b50",
+        "isCustom": 0,
+        "code": "7000"
+      },
+      {
+        "pinyinName": "yinyuehui",
+        "text": "\u97f3\u4e50\u4f1a",
+        "isCustom": 0,
+        "code": "6000"
+      },
+      {
+        "pinyinName": "quyizaji",
+        "text": "\u66f2\u827a\u6742\u6280",
+        "isCustom": 0,
+        "code": "9000"
+      },
+      {
+        "pinyinName": "wudaobalei",
+        "text": "\u821e\u8e48\u82ad\u857e",
+        "isCustom": 0,
+        "code": "8000"
+      }
+    ],
+    "mktInfo": [
+      {
+        "actTitle": "\u79d2\u6740",
+        "event": {
+          "actionData": "http:\/\/m.xishiqu.com\/html\/shopping11secKill.php#\/secKill?specialId=153",
+          "action": "wap2"
+        },
+        "imgUrl": "http:\/\/image6.xishiqu.cn\/upload\/apic\/920\/190\/920190612\/\/DBB8B518-82C9-2F4F-DC6B-3604322DACBF.png",
+        "isMiaosha": 1,
+        "msStartTime": 766549000,
+        "nextStartTime": "2019-06-29 14:00:00",
+        "acRemark": ""
+      },
+      {
+        "actTitle": "\u9ed1\u5361\u4f1a\u5458",
+        "event": {
+          "actionData": "http:\/\/m.xishiqu.com\/html\/mktKit.php?mkId=1209&specialId=153",
+          "action": "wap2"
+        },
+        "imgUrl": "http:\/\/image6.xishiqu.cn\/upload\/apic\/920\/190\/920190613\/\/0BBE6688-3CB9-952B-12DE-1DC27832775D.jpg",
+        "isMiaosha": 0,
+        "msStartTime": "",
+        "nextStartTime": "",
+        "acRemark": ""
+      },
+      {
+        "actTitle": "\u897f\u7c73\u6709\u793c",
+        "event": {
+          "actionData": "",
+          "action": "gift"
+        },
+        "imgUrl": "http:\/\/image4.xishiqu.cn\/upload\/apic\/920\/180\/920180330\/\/D2F65965-E313-1188-7C9A-DF7911CA4AE5.jpg",
+        "isMiaosha": 0,
+        "msStartTime": "",
+        "nextStartTime": "",
+        "acRemark": "\u8d62100\u897f\u7c73"
+      }
+    ],
+    "activityCateInfo": [
+      {
+        "mTitle": "\u6f14\u5531\u4f1a",
+        "pinyinName": "yanchanghui",
+        "mData": [
+          {
+            "actCode": "20190409001",
+            "actName": "\u9884\u8ba2 \u8bb8\u5d69\u300a\u5bfb\u5b9d\u6e38\u620f\u300b\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/040\/20190409001\/v\/b\/E1D1D7E4-4757-2DD6-7946-4637A7CED83F.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "880.00",
+            "hotLevel": "127.8",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "06.22 \u5468\u516d 19:30",
+            "intro": "\u8bb8\u5d69",
+            "sellerCount": "10",
+            "pinyinName": "xash"
+          },
+          {
+            "actCode": "20190402016",
+            "actName": "\u9884\u8ba2 \u8bb8\u5dcd\u300a\u65e0\u5c3d\u5149\u8292\u300b\u5de1\u56de\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/040\/20190402016\/v\/b\/D5CC8C2B-8DDF-8B9E-4F53-2F32B25EA135.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "806.00",
+            "hotLevel": "124.2",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "06.29 \u5468\u516d 19:30",
+            "intro": "\u613f\u6240\u6709\u7684\u60b2\u4f24\uff0c\u90fd\u5316\u6210\u559c\u60a6\u7684\u529b\u91cf\uff0c\u50cf\u4f60\u7231\u8fd9\u4e16\u754c\uff0c\u4f60\u65e0\u5c3d\u7684\u5149\u8292",
+            "sellerCount": "11",
+            "pinyinName": "xuweyanchanghuishz"
+          },
+          {
+            "actCode": "20190509006",
+            "actName": "\u9884\u8ba2 \u6797\u5cefHEART ATTACK\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190509006\/v\/b\/628B4B34-1767-CCD5-F2E4-3A2192275AF2.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "698.00",
+            "hotLevel": "129.5",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e1c\u65b9\u4f53\u80b2\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "06.29 \u5468\u516d 19:00",
+            "intro": "\u6797\u5cefHEARTATTACK\u6f14\u5531\u4f1a",
+            "sellerCount": "9",
+            "pinyinName": "lfshsh"
+          },
+          {
+            "actCode": "20190605001",
+            "actName": "\u9884\u8ba2 SHAWN MENDES  THE TOUR \u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/060\/20190605001\/v\/b\/18ADEB2A-D738-AB8B-839C-62A48D259576.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "1580.00",
+            "hotLevel": "186.1",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "09.28 \u5468\u516d 20:00",
+            "intro": "\u683c\u83b1\u7f8e\u63d0\u540d\u83b7\u5f97\u8005\u3001\u591a\u5f20\u767d\u91d1\u5531\u7247\u8ba4\u8bc1\u7684\u5531\u4f5c\u7537\u6b4c\u624bShawnMendes",
+            "sellerCount": "4",
+            "pinyinName": "shawnmendessh"
+          },
+          {
+            "actCode": "20190524008",
+            "actName": "\u9884\u8ba2 \u5f20\u827a\u5174\u5de1\u56de\u6f14\u5531\u4f1a\u300a\u5927\u822a\u6d77\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/052\/20190524007\/v\/b\/2626DB23-4089-798B-5345-8082DBDE6C20.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "1590.00",
+            "hotLevel": "143.9",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "07.06 \u5468\u516d 19:30",
+            "intro": "\u4ed6\u4ee5\u5b9e\u529b\u4e3a\u8239\uff0c\u52aa\u529b\u4e3a\u5e06\uff0c\u5bfb\u627e\u540d\u4e3a\u68a6\u60f3\u7684\u5b9d\u85cf",
+            "sellerCount": "9",
+            "pinyinName": "zyxychsh"
+          },
+          {
+            "actCode": "20190521002",
+            "actName": "\u9884\u8ba2 \u8d39\u7389\u6e05\u544a\u522b\u5de1\u6f14\u5185\u5730\u7ec8\u573a\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/052\/20190521002\/v\/b\/BD733ADC-6DDE-B4BD-1CB1-A5D60BD499D9.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "550.00",
+            "hotLevel": "117.8",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e1c\u65b9\u4f53\u80b2\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "10.26 \u5468\u516d 19:30",
+            "intro": "\u8d39\u7389\u6e05\u544a\u522b\u5de1\u6f14\u5185\u5730\u7ec8\u573a",
+            "sellerCount": "9",
+            "pinyinName": "fyuqsh"
+          },
+          {
+            "actCode": "20190527001",
+            "actName": "\u3010\u9884\u552e\u30112019\u5f20\u827a\u5174\u5de1\u56de\u6f14\u5531\u4f1a[\u5927\u822a\u6d77\u2022\u4e0a\u6d77\u7ad9]",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/052\/20190527001\/v\/b\/BB118891-73FA-76F4-2824-05EAF6A24E12.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "1950.00",
+            "hotLevel": "158.7",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "07.06 \u5468\u516d 19:30",
+            "intro": "",
+            "sellerCount": "3",
+            "pinyinName": "zyxsh"
+          },
+          {
+            "actCode": "20190504001",
+            "actName": "\u9884\u5b9a \u738b\u5fc3\u51cc\u300aCYNDI LOVES 2SING \u7231  \u5fc3\u51cc\u300b\u5de1\u56de\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/050\/20190504001\/v\/b\/53559D4E-C459-08C7-7E19-22A0CD3AB3CB.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "550.00",
+            "hotLevel": "99.3",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e1c\u65b9\u4f53\u80b2\u4e2d\u5fc3"
+            },
+            "maxDiscount": "9.7",
+            "actTime": "07.20 \u5468\u516d 19:30",
+            "intro": "7\u670820\u65e5\u8ba9\u6211\u4eec\u671f\u5f85CYNDILOVES2SING\u7231\u5fc3\u51cc\u5de1\u56de\u6f14\u5531\u4f1a\u751c\u871c\u98ce\u66b4\u5e2d\u5377\u4e0a\u6d77\uff01",
+            "sellerCount": "10",
+            "pinyinName": "cyndilovesingych"
+          },
+          {
+            "actCode": "20190509003",
+            "actName": "\u3010\u9884\u552e\u3011Aimer \u201csoleil et pluie\u201c Asia Tour in Shanghai\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/050\/20190509003\/v\/b\/B90D45F1-B79D-043F-3E33-30C7F6DA249A.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "1380.00",
+            "hotLevel": "168.1",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u56fd\u5bb6\u4f1a\u5c55\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "06.22 \u5468\u516d 19:30",
+            "intro": "Aimer",
+            "sellerCount": "1",
+            "pinyinName": "aimsh"
+          },
+          {
+            "actCode": "20190617001",
+            "actName": "\u9884\u8ba2 \u516b\u4e09\u592d \u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190617001\/v\/b\/8940AC40-FAD8-197A-3ECF-04F6A8EEE7D4.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "1400.00",
+            "hotLevel": "166.5",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u9759\u5b89\u65b0\u4f53\u80b2\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "08.17 \u5468\u516d 19:30",
+            "intro": "\u6447\u6eda\u4e50\uff0c\u4ece\u6765\u90fd\u4e0d\u53ea\u662f\u53f0\u4e0a\u4e94\u4e2a\u4eba\u7684\u4e8b",
+            "sellerCount": "1",
+            "pinyinName": "bsyychsh"
+          },
+          {
+            "actCode": "20190528001",
+            "actName": "\u5c0f\u6797\u672a\u90c1\u300aMika Type \u627f  \u8202\u5bb9\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/052\/20190528001\/v\/b\/1A740561-72DF-8981-2C6C-E8460813FDB0.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "1378.00",
+            "hotLevel": "194.0",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e07\u4ee3\u5357\u68a6\u5bab\u6587\u5316\u4e2d\u5fc3(\u539f\u4e0a\u6d77\u6d45\u6c34\u6e7e\u6587\u5316\u827a\u672f\u4e2d\u5fc3)"
+            },
+            "maxDiscount": "",
+            "actTime": "06.23 \u5468\u65e5 20:00",
+            "intro": "\u6b4c\u58f0\u6e29\u67d4\u53c8\u6709\u7206\u53d1\u529b\uff0c\u559c\u7231\u7a7f\u8f7b\u841d\u8389\u88c5\u7684\u6b4c\u59ec\uff0c\u6211\u4eec\u8d85\u7231\u7684MIKA",
+            "sellerCount": "3",
+            "pinyinName": "miketypesh"
+          }
+        ]
+      },
+      {
+        "mTitle": "\u8bdd\u5267\u6b4c\u5267",
+        "pinyinName": "huajugeju",
+        "mData": [
+          {
+            "actCode": "20190328013",
+            "actName": "\u5e7a\u5e7a\u6d1e\u634c\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/032\/20190328013\/v\/b\/5DD779BE-2D45-A41B-73C8-3731B2F855B1.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "500.00",
+            "hotLevel": "106.5",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u5267\u573a"
+            },
+            "maxDiscount": "",
+            "actTime": "06.20~06.30",
+            "intro": "\u4e5f\u4e0d\u77e5\u662f\u5728\u8212\u5f64\u7684\u7b14\u4e0b\uff0c\u8fd8\u662f\u73b0\u5b9e\u4e2d\uff0c\u8fd9\u573a\u8de8\u8d8a\u65f6\u7a7a\u7684\u6545\u4e8b\u6c38\u8fdc\u7684\u5b9a\u683c\u5728\u4e861943\u5e74\u3002",
+            "sellerCount": "8",
+            "pinyinName": "isduhfoshgf"
+          },
+          {
+            "actCode": "20190321004",
+            "actName": "\u9884\u8ba2 \u6cd5\u8bed\u539f\u7248\u97f3\u4e50\u5267\u300a\u5df4\u9ece\u5723\u6bcd\u9662\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/032\/20190321004\/v\/b\/B96689F5-266F-FBBE-F373-83139B3B6B07.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "260.00",
+            "hotLevel": "115.4",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a"
+            },
+            "maxDiscount": "",
+            "actTime": "07.19~08.08",
+            "intro": "\u5df4\u9ece\u5723\u6bcd\u9662\u503c\u5f97\u770b\u7684\u4e00\u90e8\u97f3\u4e50\u5267\u3002",
+            "sellerCount": "11",
+            "pinyinName": "blsmy"
+          },
+          {
+            "actCode": "20190507004",
+            "actName": "\u7f8e\u56fd\u767e\u8001\u6c47\u82f1\u6587\u539f\u7248\u97f3\u4e50\u5267 \u300aAn American in Paris \u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190507004\/v\/b\/C436AC76-5984-5E04-E401-3BB2AFE876BB.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "488.00",
+            "hotLevel": "116.7",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u6d77\u4fdd\u5229\u5927\u5267\u9662"
+            },
+            "maxDiscount": "",
+            "actTime": "06.21~06.27",
+            "intro": "\u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece",
+            "sellerCount": "2",
+            "pinyinName": "ygrblsh"
+          },
+          {
+            "actCode": "20190523005",
+            "actName": "\u9884\u8ba2 \u300a\u51b0\u4e0a\u8fea\u58eb\u5c3c \u51b0\u96ea\u5947\u7f18\u300b\u5de1\u6f14\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/052\/20190523005\/v\/b\/38EB4494-599A-58AB-F378-ABE43749FA8A.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "180.00",
+            "hotLevel": "91.3",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3"
+            },
+            "maxDiscount": "",
+            "actTime": "07.12~07.14",
+            "intro": "\u7ecf\u5178\u6545\u4e8b\u51b0\u9762\u7efd\u653e",
+            "sellerCount": "5",
+            "pinyinName": "bsdsnsh"
+          },
+          {
+            "actCode": "20190308001",
+            "actName": "\u9884\u8ba2 \u97f3\u4e50\u5267\u300a\u767d\u591c\u884c\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/030\/20190308001\/v\/b\/5B4E590B-48CF-FBBD-0102-53C7980B1D35.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "140.00",
+            "hotLevel": "101.2",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a"
+            },
+            "maxDiscount": "",
+            "actTime": "06.29~07.07",
+            "intro": "2018\u97f3\u4e50\u5267\u9ed1\u9a6c\uff0c2019\u518d\u5ea6\u5f15\u71c3\u9b54\u90fd\uff0c\u767d\u591c\u884c\u97f3\u4e50\u5267\uff0c\u6625\u590f\u5de1\u6f14\u4e0a\u6d77\u7ad9",
+            "sellerCount": "14",
+            "pinyinName": "byxyyj"
+          },
+          {
+            "actCode": "20190221006",
+            "actName": "\u963f\u52a0\u838e \u514b\u91cc\u65af\u8482\u4f20\u4e16\u5de8\u8457 \u65e0\u4eba\u751f\u8fd8\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/022\/20190221006\/v\/b\/2C6EFB3C-94B3-9454-4A19-1853DCEB887A.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "229.00",
+            "hotLevel": "136.0",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u7f8e\u742a\u5927\u620f\u9662"
+            },
+            "maxDiscount": "",
+            "actTime": "07.25~08.04",
+            "intro": "\u53e4\u8001\u7684\u7ae5\u8c23\u5982\u540c\u8bc5\u5492\uff0c\u5728\u5fc3\u4e2d\u4e00\u6b21\u6b21\u54cd\u8d77\uff0c\u63ed\u5f00\u4e86\u4eba\u4eec\u5404\u81ea\u9690\u85cf\u5728\u5fc3\u4e2d\u591a\u5e74\u7684\u79d8\u5bc6",
+            "sellerCount": "7",
+            "pinyinName": "wrshshz"
+          },
+          {
+            "actCode": "20190605009",
+            "actName": "\u6697\u604b\u6843\u82b1\u6e90\uff08\u4e13\u5c5e\u7248\uff09\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/060\/20190605009\/v\/b\/C3A7342B-711E-9561-F87F-C53C33D9A3EE.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "580.00",
+            "hotLevel": "115.3",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u5267\u573a"
+            },
+            "maxDiscount": "",
+            "actTime": "09.19~10.13",
+            "intro": "\u6697\u604b\u6843\u82b1\u6e90\uff08\u4e13\u5c5e\u7248\uff09",
+            "sellerCount": "1",
+            "pinyinName": "althyzsbshz"
+          },
+          {
+            "actCode": "20190426013",
+            "actName": "\u9884\u8ba2 \u7530\u7eb3\u897f\u5a01\u5ec9\u65af\u7ecf\u5178\u8bdd\u5267\u300a\u6b32\u671b\u53f7\u8857\u8f66\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/042\/20190426012\/v\/b\/D4AC3108-2333-73F6-60FC-DB01EA834344.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "278.00",
+            "hotLevel": "107.4",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u6d77\u8bdd\u5267\u827a\u672f\u4e2d\u5fc3\u620f\u5267\u6c99\u9f99"
+            },
+            "maxDiscount": "",
+            "actTime": "06.20~06.23",
+            "intro": "\u5f53\u6d6a\u6f2b\u78b0\u649e\u73b0\u5b9e\uff0c\u5f53\u7406\u60f3\u78b0\u649e\u6b32\u671b\uff0c\u5f53\u7c97\u4fd7\u4e0e\u4f18\u96c5\u5f3a\u70c8\u5bf9\u7acb\uff0c\u7ec8\u4e8e\u53ea\u5269\u4e0b\u6b32\u671b\u7684\u8857\u8f66\u5728\u6697\u591c\u4e2d\u51b2\u649e",
+            "sellerCount": "1",
+            "pinyinName": "ywhlcshz"
+          },
+          {
+            "actCode": "20190519003",
+            "actName": "\u3010\u9884\u552e\u30112019\u97f3\u4e50\u5267\u660e\u661f\u96c6\u9526\u97f3\u4e50\u4f1a\u2022\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/051\/20190519003\/v\/b\/7211421D-16F4-060E-311F-9BD2D47D429E.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "1398.00",
+            "hotLevel": "124.3",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e91\u5cf0\u5267\u9662"
+            },
+            "maxDiscount": "",
+            "actTime": "07.19~07.20",
+            "intro": "\u660e\u661f\u96c6\u9526\u97f3\u4e50\u4f1a",
+            "sellerCount": "4",
+            "pinyinName": "yyjsh"
+          },
+          {
+            "actCode": "20190521001",
+            "actName": "\u660e\u661f\u7248\u8bdd\u5267\u300a\u72ec\u81ea\u6e29\u6696\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/052\/20190521001\/v\/b\/94694244-81CF-C009-C542-64520BC82AD3.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "160.00",
+            "hotLevel": "112.2",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e91\u5cf0\u5267\u9662"
+            },
+            "maxDiscount": "",
+            "actTime": "06.28~06.30",
+            "intro": "\u4eba\u9700\u8981\u7231\uff0c\u9700\u8981\u6e29\u6696\uff0c\u800c\uff0c\u6e29\u6696\u548c\u7231\uff0c\u96be\u5f97\uff0c\u56e0\u6b64\uff0c\u6d3b\u7740\u624d\u6709\u4e30\u5bcc",
+            "sellerCount": "2",
+            "pinyinName": "duziwennansh"
+          },
+          {
+            "actCode": "20190530003",
+            "actName": "\u9884\u8ba2 \u8bd7\u60c5\u8bdd\u5267\u300a\u6f2b\u957f\u7684\u544a\u767d\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/053\/20190530003\/v\/b\/55518EAC-C4B6-C096-0984-8D0697296607.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "304.00",
+            "hotLevel": "180.7",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u6d77\u57ce\u5e02\u5267\u9662"
+            },
+            "maxDiscount": "",
+            "actTime": "08.08~08.18",
+            "intro": "\u4ed6\u4eec\u548c\u81ea\u5df1\u7684\u9752\u6625\u6325\u624b\u4f5c\u522b\uff0c\u5149\u9634\u4f3c\u7bad\uff0c\u5374\u65e0\u6094\u90a3\u4e00\u6bb5\u70bd\u70c8\u7684\u8ffd\u7231\u5f80\u4e8b",
+            "sellerCount": "4",
+            "pinyinName": "mcdgbsh"
+          },
+          {
+            "actCode": "20190121001",
+            "actName": "\u4e16\u754c\u7ecf\u5178\u97f3\u4e50\u5267\u300a\u5988\u5988\u54aa\u5440\uff01\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/012\/20190121001\/v\/b\/34D4855B-686E-B261-FBAE-45D25F39A812.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "550.00",
+            "hotLevel": "113.5",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u6d77\u5927\u5267\u9662\uff08\u5927\u5267\u573a\uff09"
+            },
+            "maxDiscount": "",
+            "actTime": "07.19~07.26",
+            "intro": "\u65e2\u53ef\u6ee1\u8db3\u89c2\u4f17\u83b7\u5f97\u60c5\u611f\u5171\u9e23\u7684\u5fc3\u7406\u613f\u671b\uff0c\u53c8\u4e0d\u5931\u6574\u573a\u6f14\u51fa\u6b22\u5feb\u5954\u653e\u7684\u6d3b\u6cfc\u6c14\u6c1b",
+            "sellerCount": "6",
+            "pinyinName": "mmmyzwbshz"
+          }
+        ]
+      },
+      {
+        "mTitle": "\u4f11\u95f2\u5a31\u4e50",
+        "pinyinName": "xiuxianyule",
+        "mData": [
+          {
+            "actCode": "20190415001",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u9999\u6e2f\u540d\u90fd"
+            },
+            "maxDiscount": "5.0",
+            "actTime": "04.22~12.31",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "sellerCount": "1",
+            "pinyinName": "damengweichengshz"
+          },
+          {
+            "actCode": "20190408002",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "actHdImgUrl": "",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "city": {
+              "cityCode": "021",
+              "cityName": "\u4e0a\u6d77"
+            },
+            "venue": {
+              "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a"
+            },
+            "maxDiscount": "3.6",
+            "actTime": "06.01~12.31",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "sellerCount": "1",
+            "pinyinName": "miniatureworld"
+          }
+        ]
+      },
+      {
+        "mTitle": "\u7535\u5f71",
+        "pinyinName": "film",
+        "mData": [
+          {
+            "filmImg": "http:\/\/image3.xishiqu.cn\/upload\/film\/920\/190\/920190619\/\/AE7AAC91-E332-7152-7259-A6160E499138.jpg",
+            "filmName": "\u7edd\u6740\u6155\u5c3c\u9ed1",
+            "filmEnName": "\u683c\u9c81\u5409\u4e9a\u8bed\/\u4fc4\u8bed\/\u82f1\u8bed\/\u7acb\u9676\u5b9b\u8bed",
+            "filmId": "666",
+            "scoreD": "8.3",
+            "scoreG": "8.3",
+            "filmCatalog": "\u5267\u60c5,\u8fd0\u52a8",
+            "filmDuration": "121",
+            "openingDate": "2019.06.13"
+          },
+          {
+            "filmImg": "http:\/\/image5.xishiqu.cn\/upload\/film\/920\/190\/920190619\/\/E92A5F63-4AAD-4F8E-A84D-656F92D650CA.jpg",
+            "filmName": "\u5988\u9601\u662f\u5ea7\u57ce",
+            "filmEnName": "\u6c49\u8bed\u666e\u901a\u8bdd",
+            "filmId": "668",
+            "scoreD": "5.7",
+            "scoreG": "5.7",
+            "filmCatalog": "\u7231\u60c5,\u5267\u60c5",
+            "filmDuration": "127",
+            "openingDate": "2019.06.14"
+          },
+          {
+            "filmImg": "http:\/\/image.xishiqu.cn\/upload\/film\/920\/190\/920190619\/\/E6B623FC-4808-4625-B20C-48AA1D0AE7F9.jpg",
+            "filmName": "\u79e6\u660e\u00b7\u751f\u6b7b\u8bed\u8005",
+            "filmEnName": "\u6c49\u8bed\u666e\u901a\u8bdd",
+            "filmId": "669",
+            "scoreD": "4.4",
+            "scoreG": "4.4",
+            "filmCatalog": "\u60ac\u7591,\u72af\u7f6a",
+            "filmDuration": "100",
+            "openingDate": "2019.06.14"
+          },
+          {
+            "filmImg": "http:\/\/image3.xishiqu.cn\/upload\/film\/920\/190\/920190612\/\/8D276445-CAE2-CABE-55A6-23D61343DF6F.jpg",
+            "filmName": "\u65e0\u6240\u4e0d\u80fd",
+            "filmEnName": "\u5370\u5730\u8bed",
+            "filmId": "659",
+            "scoreD": "7.1",
+            "scoreG": "7.1",
+            "filmCatalog": "\u5267\u60c5,\u7231\u60c5,\u72af\u7f6a",
+            "filmDuration": "133",
+            "openingDate": "2019.06.05"
+          },
+          {
+            "filmImg": "http:\/\/image.xishiqu.cn\/upload\/film\/920\/190\/920190520\/\/5B14E26E-EC12-3C75-48D3-70E76F92EC0C.jpg",
+            "filmName": "\u5468\u6069\u6765\u56de\u5ef6\u5b89",
+            "filmEnName": "\u6c49\u8bed\u666e\u901a\u8bdd",
+            "filmId": "646",
+            "scoreD": "7.0",
+            "scoreG": "7.0",
+            "filmCatalog": "\u5386\u53f2,\u5267\u60c5",
+            "filmDuration": "103",
+            "openingDate": "2019.05.15"
+          },
+          {
+            "filmImg": "http:\/\/image4.xishiqu.cn\/upload\/film\/920\/190\/920190619\/\/99A5FDD4-C3E9-30A7-9E02-7B37E0A153F6.jpg",
+            "filmName": "\u767d\u7259",
+            "filmEnName": "\u6cd5\u8bed\/\u82f1\u8bed",
+            "filmId": "667",
+            "scoreD": "7.6",
+            "scoreG": "7.7",
+            "filmCatalog": "\u52a8\u753b,\u5192\u9669,\u5267\u60c5",
+            "filmDuration": "88",
+            "openingDate": "2019.06.14"
+          },
+          {
+            "filmImg": "http:\/\/image6.xishiqu.cn\/upload\/film\/920\/190\/920190429\/\/5C2D7FC5-8C28-512F-A095-101E02B4F3CE.jpg",
+            "filmName": "\u6e2f\u73e0\u6fb3\u5927\u6865",
+            "filmEnName": "\u6c49\u8bed\u666e\u901a\u8bdd",
+            "filmId": "637",
+            "scoreD": "8.0",
+            "scoreG": "8.0",
+            "filmCatalog": "\u7eaa\u5f55\u7247",
+            "filmDuration": "70",
+            "openingDate": "2019.05.01"
+          },
+          {
+            "filmImg": "http:\/\/image.xishiqu.cn\/upload\/film\/920\/190\/920190522\/\/F17F3406-E4B1-97B0-DCBE-2A67B642297E.jpg",
+            "filmName": "\u97f3\u4e50\u5bb6",
+            "filmEnName": "\u6c49\u8bed\u666e\u901a\u8bdd\/\u4fc4\u8bed",
+            "filmId": "651",
+            "scoreD": "6.6",
+            "scoreG": "8.8",
+            "filmCatalog": "\u5386\u53f2,\u4f20\u8bb0",
+            "filmDuration": "112",
+            "openingDate": "2019.05.17"
+          },
+          {
+            "filmImg": "http:\/\/image5.xishiqu.cn\/upload\/film\/920\/190\/920190531\/\/36D1B842-86B8-7838-079A-7CB8C046CEEC.jpg",
+            "filmName": "\u9f99\u73e0\u8d85\uff1a\u5e03\u7f57\u5229",
+            "filmEnName": "\u65e5\u8bed",
+            "filmId": "656",
+            "scoreD": "7.5",
+            "scoreG": "7.5",
+            "filmCatalog": "\u52a8\u753b",
+            "filmDuration": "100",
+            "openingDate": "2019.05.24"
+          },
+          {
+            "filmImg": "http:\/\/image4.xishiqu.cn\/upload\/film\/920\/190\/920190515\/\/5A0E8D36-E5E6-F3C8-1F19-2597CBE9D3B3.jpg",
+            "filmName": "\u7f57\u9a6c",
+            "filmEnName": "\u897f\u73ed\u7259\u8bed\/\u7c73\u65af\u7279\u514b\u8bed\/\u82f1\u8bed",
+            "filmId": "642",
+            "scoreD": "8.1",
+            "scoreG": "8.1",
+            "filmCatalog": "\u5267\u60c5",
+            "filmDuration": "135",
+            "openingDate": "2019.05.10"
+          },
+          {
+            "filmImg": "http:\/\/image5.xishiqu.cn\/upload\/film\/920\/190\/920190612\/\/64DB77CB-569C-82AF-C58C-35099053D03B.jpg",
+            "filmName": "\u5361\u62c9\u65af\uff1a\u4e3a\u7231\u800c\u58f0",
+            "filmEnName": "\u82f1\u8bed\/\u6cd5\u8bed",
+            "filmId": "660",
+            "scoreD": "8.2",
+            "scoreG": "8.7",
+            "filmCatalog": "\u7eaa\u5f55\u7247",
+            "filmDuration": "118",
+            "openingDate": "2019.05.31"
+          },
+          {
+            "filmImg": "http:\/\/image6.xishiqu.cn\/upload\/film\/920\/190\/920190531\/\/C3B43D7D-4D14-04E8-8BBC-2A90F83E48B7.jpg",
+            "filmName": "\u90bb\u5ea7\u7684\u602a\u540c\u5b66",
+            "filmEnName": "\u65e5\u8bed",
+            "filmId": "654",
+            "scoreD": "6.1",
+            "scoreG": "6.1",
+            "filmCatalog": "\u559c\u5267,\u5267\u60c5,\u7231\u60c5",
+            "filmDuration": "106",
+            "openingDate": "2019.05.23"
+          }
+        ]
+      }
+    ],
+    "activitySevenInfo": [
+      {
+        "title": "\u4eca",
+        "list": [
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/032\/20190328013\/v\/b\/5DD779BE-2D45-A41B-73C8-3731B2F855B1.jpg",
+            "maxDiscount": "",
+            "actName": "\u5e7a\u5e7a\u6d1e\u634c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190328013",
+            "pinyinName": "isduhfoshgf",
+            "lowPrice": "500.00",
+            "hotLevel": "106.5",
+            "veName": "\u4e0a\u5267\u573a",
+            "intro": "\u4e5f\u4e0d\u77e5\u662f\u5728\u8212\u5f64\u7684\u7b14\u4e0b\uff0c\u8fd8\u662f\u73b0\u5b9e\u4e2d\uff0c\u8fd9\u573a\u8de8\u8d8a\u65f6\u7a7a\u7684\u6545\u4e8b\u6c38\u8fdc\u7684\u5b9a\u683c\u5728\u4e861943\u5e74\u3002",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "maxDiscount": "5.0",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190415001",
+            "pinyinName": "damengweichengshz",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "veName": "\u9999\u6e2f\u540d\u90fd",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "isPreSale": 0,
+            "actTime": "2019-04-22-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/042\/20190426012\/v\/b\/D4AC3108-2333-73F6-60FC-DB01EA834344.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u7530\u7eb3\u897f\u5a01\u5ec9\u65af\u7ecf\u5178\u8bdd\u5267\u300a\u6b32\u671b\u53f7\u8857\u8f66\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190426013",
+            "pinyinName": "ywhlcshz",
+            "lowPrice": "278.00",
+            "hotLevel": "107.4",
+            "veName": "\u4e0a\u6d77\u8bdd\u5267\u827a\u672f\u4e2d\u5fc3\u620f\u5267\u6c99\u9f99",
+            "intro": "\u5f53\u6d6a\u6f2b\u78b0\u649e\u73b0\u5b9e\uff0c\u5f53\u7406\u60f3\u78b0\u649e\u6b32\u671b\uff0c\u5f53\u7c97\u4fd7\u4e0e\u4f18\u96c5\u5f3a\u70c8\u5bf9\u7acb\uff0c\u7ec8\u4e8e\u53ea\u5269\u4e0b\u6b32\u671b\u7684\u8857\u8f66\u5728\u6697\u591c\u4e2d\u51b2\u649e",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "maxDiscount": "3.6",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190408002",
+            "pinyinName": "miniatureworld",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "isPreSale": 0,
+            "actTime": "2019-06-01-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/053\/20190531001\/v\/b\/53949971-2671-AF50-8252-E634E3590A79.jpg",
+            "maxDiscount": "4.9",
+            "actName": "\u897f\u5ba2PLUS\u897f\u5341\u533a\u9ed1\u5361\u4f1a\u5458\u5e74\u5ea6\u8fdb\u9636",
+            "actCode": "20190531001",
+            "pinyinName": "xkplus",
+            "lowPrice": "199.00",
+            "hotLevel": "70.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u897f\u5ba2PLUS\u4f1a\u5458\u72c2\u6b22\u65e5\uff0c\u5f00\u901a\u5373\u4eab\u516d\u5927\u4f1a\u5458\u6743\u76ca",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190402011\/v\/b\/2C7020D9-27AB-C021-3F08-1E4C9CEBD9E2.jpg",
+            "maxDiscount": "",
+            "actName": "\u821e\u5267\u300a\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190402011",
+            "pinyinName": "ybxmddb",
+            "lowPrice": "580.00",
+            "hotLevel": "104.6",
+            "veName": "\u4e0a\u6d77\u56fd\u9645\u821e\u8e48\u4e2d\u5fc3",
+            "intro": "\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/052\/20190524009\/v\/b\/EC3ADDC0-A015-793E-3C45-98E35399928F.jpg",
+            "maxDiscount": "9.0",
+            "actName": "\u767e\u8001\u6c47\u97f3\u4e50\u5267\u300a\u7070\u59d1\u5a18\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190524009",
+            "pinyinName": "huiguniangshanghai",
+            "lowPrice": "550.00",
+            "hotLevel": "86.8",
+            "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a",
+            "intro": "\u7ecf\u5178\u7ae5\u8bdd\u5168\u65b0\u6f14\u7ece\uff0c\u8ba9\u9b54\u6cd5\u53d1\u751f\u5728\u773c\u524d",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/122\/20181220001\/v\/b\/6BA3088D-ACAA-2D17-55C7-F7984C2A4DB6.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u604b\u7231\u97f3\u4e50\u5267\u300a\u957f\u817f\u53d4\u53d4\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181220001",
+            "pinyinName": "ctsssh",
+            "lowPrice": "",
+            "hotLevel": "89.0",
+            "veName": "\u4e0a\u6d77\u4eba\u6c11\u5927\u821e\u53f0",
+            "intro": "\u524d\u540e\u821e\u53f0\u5de7\u5999\u5229\u7528\uff0c\u5851\u9020\u53cc\u5411\u65f6\u7a7a\uff0c\u6570\u4ee5\u767e\u8ba1\u7684\u5e03\u666f\u9053\u5177\uff0c\u821e\u53f0\u6697\u85cf\u7384\u673a\uff0c\u552f\u7f8e\u4e66\u623f\u4e0a\u7ebf\uff0c\u590d\u53e4\u66fc\u54c8\u987f\u4e00\u666f\u8fd8\u539f",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/121\/20181217008\/v\/b\/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+            "maxDiscount": "",
+            "actName": "\u5c42\u5c42\u6050\u60e7 \u9b3c\u5c4b\u5bc6\u5ba4\u300a\u8ff7\u9b42\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181217008",
+            "pinyinName": "mhshhfds",
+            "lowPrice": "",
+            "hotLevel": "83.1",
+            "veName": "\u6c47\u5609\u5927\u53a6",
+            "intro": "\u8fd9\u662f\u4e00\u95f4\u591a\u5e74\u6765\u4f20\u95fb\u95f9\u9b3c\u7684\u9152\u5e97\u623f\u95f4\uff0c\u66fe\u670956\u4e2a\u623f\u5ba2\u5728\u6b64\u79bb\u5947\u81ea\u6740\uff0c\u6b64\u540e\u518d\u65e0\u4eba\u5165\u4f4f\u3002",
+            "isPreSale": 0,
+            "actTime": "2018-12-19-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/051\/20190515004\/v\/b\/9FBC7B5D-BB8B-FA3E-37B1-CF9A79AB9A7F.jpg",
+            "maxDiscount": "",
+            "actName": "\u963f\u52a0\u838e\u63a8\u7406\u540d\u5267\u300a\u8c0b\u6740\u542f\u4e8b\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190515004",
+            "pinyinName": "msqsshsh",
+            "lowPrice": "",
+            "hotLevel": "88.1",
+            "veName": "\u65b0\u5149\u5c0f\u5267\u573a\uff08\u65b0\u5149\u5f71\u827a\u82d1\uff09",
+            "intro": "\u8c0b\u6740\u542f\u4e8b",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611027\/v\/b\/99980357-D859-91D5-F014-F53F4B14A4B4.jpg",
+            "maxDiscount": "",
+            "actName": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611027",
+            "pinyinName": "tyssxxk",
+            "lowPrice": "",
+            "hotLevel": "77.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/061\/20190611023\/v\/b\/F489586E-B07E-21F2-C79E-80E4C9F05AE4.jpg",
+            "maxDiscount": "",
+            "actName": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611023",
+            "pinyinName": "etqzxxk",
+            "lowPrice": "",
+            "hotLevel": "78.0",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          }
+        ]
+      },
+      {
+        "title": "\u4e94",
+        "list": [
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/032\/20190328013\/v\/b\/5DD779BE-2D45-A41B-73C8-3731B2F855B1.jpg",
+            "maxDiscount": "",
+            "actName": "\u5e7a\u5e7a\u6d1e\u634c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190328013",
+            "pinyinName": "isduhfoshgf",
+            "lowPrice": "500.00",
+            "hotLevel": "106.5",
+            "veName": "\u4e0a\u5267\u573a",
+            "intro": "\u4e5f\u4e0d\u77e5\u662f\u5728\u8212\u5f64\u7684\u7b14\u4e0b\uff0c\u8fd8\u662f\u73b0\u5b9e\u4e2d\uff0c\u8fd9\u573a\u8de8\u8d8a\u65f6\u7a7a\u7684\u6545\u4e8b\u6c38\u8fdc\u7684\u5b9a\u683c\u5728\u4e861943\u5e74\u3002",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "maxDiscount": "5.0",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190415001",
+            "pinyinName": "damengweichengshz",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "veName": "\u9999\u6e2f\u540d\u90fd",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "isPreSale": 0,
+            "actTime": "2019-04-22-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/042\/20190426012\/v\/b\/D4AC3108-2333-73F6-60FC-DB01EA834344.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u7530\u7eb3\u897f\u5a01\u5ec9\u65af\u7ecf\u5178\u8bdd\u5267\u300a\u6b32\u671b\u53f7\u8857\u8f66\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190426013",
+            "pinyinName": "ywhlcshz",
+            "lowPrice": "278.00",
+            "hotLevel": "107.4",
+            "veName": "\u4e0a\u6d77\u8bdd\u5267\u827a\u672f\u4e2d\u5fc3\u620f\u5267\u6c99\u9f99",
+            "intro": "\u5f53\u6d6a\u6f2b\u78b0\u649e\u73b0\u5b9e\uff0c\u5f53\u7406\u60f3\u78b0\u649e\u6b32\u671b\uff0c\u5f53\u7c97\u4fd7\u4e0e\u4f18\u96c5\u5f3a\u70c8\u5bf9\u7acb\uff0c\u7ec8\u4e8e\u53ea\u5269\u4e0b\u6b32\u671b\u7684\u8857\u8f66\u5728\u6697\u591c\u4e2d\u51b2\u649e",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190507004\/v\/b\/C436AC76-5984-5E04-E401-3BB2AFE876BB.jpg",
+            "maxDiscount": "",
+            "actName": "\u7f8e\u56fd\u767e\u8001\u6c47\u82f1\u6587\u539f\u7248\u97f3\u4e50\u5267 \u300aAn American in Paris \u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190507004",
+            "pinyinName": "ygrblsh",
+            "lowPrice": "488.00",
+            "hotLevel": "116.7",
+            "veName": "\u4e0a\u6d77\u4fdd\u5229\u5927\u5267\u9662",
+            "intro": "\u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece",
+            "isPreSale": 0,
+            "actTime": "2019-06-21-2019-06-27"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "maxDiscount": "3.6",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190408002",
+            "pinyinName": "miniatureworld",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "isPreSale": 0,
+            "actTime": "2019-06-01-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/053\/20190531001\/v\/b\/53949971-2671-AF50-8252-E634E3590A79.jpg",
+            "maxDiscount": "4.9",
+            "actName": "\u897f\u5ba2PLUS\u897f\u5341\u533a\u9ed1\u5361\u4f1a\u5458\u5e74\u5ea6\u8fdb\u9636",
+            "actCode": "20190531001",
+            "pinyinName": "xkplus",
+            "lowPrice": "199.00",
+            "hotLevel": "70.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u897f\u5ba2PLUS\u4f1a\u5458\u72c2\u6b22\u65e5\uff0c\u5f00\u901a\u5373\u4eab\u516d\u5927\u4f1a\u5458\u6743\u76ca",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190402011\/v\/b\/2C7020D9-27AB-C021-3F08-1E4C9CEBD9E2.jpg",
+            "maxDiscount": "",
+            "actName": "\u821e\u5267\u300a\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190402011",
+            "pinyinName": "ybxmddb",
+            "lowPrice": "580.00",
+            "hotLevel": "104.6",
+            "veName": "\u4e0a\u6d77\u56fd\u9645\u821e\u8e48\u4e2d\u5fc3",
+            "intro": "\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/052\/20190524009\/v\/b\/EC3ADDC0-A015-793E-3C45-98E35399928F.jpg",
+            "maxDiscount": "9.0",
+            "actName": "\u767e\u8001\u6c47\u97f3\u4e50\u5267\u300a\u7070\u59d1\u5a18\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190524009",
+            "pinyinName": "huiguniangshanghai",
+            "lowPrice": "550.00",
+            "hotLevel": "86.8",
+            "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a",
+            "intro": "\u7ecf\u5178\u7ae5\u8bdd\u5168\u65b0\u6f14\u7ece\uff0c\u8ba9\u9b54\u6cd5\u53d1\u751f\u5728\u773c\u524d",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/061\/20190610001\/v\/b\/39267CFB-F6A2-9C18-9802-8C7A5CE5C141.jpg",
+            "maxDiscount": "",
+            "actName": "Christopher \u4e2d\u56fd\u5de1\u6f14\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190610001",
+            "pinyinName": "christophershz",
+            "lowPrice": "880.00",
+            "hotLevel": "124.4",
+            "veName": "\u4e07\u4ee3\u5357\u68a6\u5bab\u6587\u5316\u4e2d\u5fc3(\u539f\u4e0a\u6d77\u6d45\u6c34\u6e7e\u6587\u5316\u827a\u672f\u4e2d\u5fc3)",
+            "intro": "Christopher",
+            "isPreSale": 0,
+            "actTime": "2019-06-21 \u5468\u4e94 19:30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/122\/20181220001\/v\/b\/6BA3088D-ACAA-2D17-55C7-F7984C2A4DB6.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u604b\u7231\u97f3\u4e50\u5267\u300a\u957f\u817f\u53d4\u53d4\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181220001",
+            "pinyinName": "ctsssh",
+            "lowPrice": "",
+            "hotLevel": "89.0",
+            "veName": "\u4e0a\u6d77\u4eba\u6c11\u5927\u821e\u53f0",
+            "intro": "\u524d\u540e\u821e\u53f0\u5de7\u5999\u5229\u7528\uff0c\u5851\u9020\u53cc\u5411\u65f6\u7a7a\uff0c\u6570\u4ee5\u767e\u8ba1\u7684\u5e03\u666f\u9053\u5177\uff0c\u821e\u53f0\u6697\u85cf\u7384\u673a\uff0c\u552f\u7f8e\u4e66\u623f\u4e0a\u7ebf\uff0c\u590d\u53e4\u66fc\u54c8\u987f\u4e00\u666f\u8fd8\u539f",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/121\/20181217008\/v\/b\/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+            "maxDiscount": "",
+            "actName": "\u5c42\u5c42\u6050\u60e7 \u9b3c\u5c4b\u5bc6\u5ba4\u300a\u8ff7\u9b42\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181217008",
+            "pinyinName": "mhshhfds",
+            "lowPrice": "",
+            "hotLevel": "83.1",
+            "veName": "\u6c47\u5609\u5927\u53a6",
+            "intro": "\u8fd9\u662f\u4e00\u95f4\u591a\u5e74\u6765\u4f20\u95fb\u95f9\u9b3c\u7684\u9152\u5e97\u623f\u95f4\uff0c\u66fe\u670956\u4e2a\u623f\u5ba2\u5728\u6b64\u79bb\u5947\u81ea\u6740\uff0c\u6b64\u540e\u518d\u65e0\u4eba\u5165\u4f4f\u3002",
+            "isPreSale": 0,
+            "actTime": "2018-12-19-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/051\/20190515004\/v\/b\/9FBC7B5D-BB8B-FA3E-37B1-CF9A79AB9A7F.jpg",
+            "maxDiscount": "",
+            "actName": "\u963f\u52a0\u838e\u63a8\u7406\u540d\u5267\u300a\u8c0b\u6740\u542f\u4e8b\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190515004",
+            "pinyinName": "msqsshsh",
+            "lowPrice": "",
+            "hotLevel": "88.1",
+            "veName": "\u65b0\u5149\u5c0f\u5267\u573a\uff08\u65b0\u5149\u5f71\u827a\u82d1\uff09",
+            "intro": "\u8c0b\u6740\u542f\u4e8b",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-30"
+          }
+        ]
+      },
+      {
+        "title": "\u516d",
+        "list": [
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/040\/20190409001\/v\/b\/E1D1D7E4-4757-2DD6-7946-4637A7CED83F.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u8bb8\u5d69\u300a\u5bfb\u5b9d\u6e38\u620f\u300b\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190409001",
+            "pinyinName": "xash",
+            "lowPrice": "880.00",
+            "hotLevel": "127.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u8bb8\u5d69",
+            "isPreSale": 1,
+            "actTime": "2019-06-22 \u5468\u516d 19:30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/032\/20190328013\/v\/b\/5DD779BE-2D45-A41B-73C8-3731B2F855B1.jpg",
+            "maxDiscount": "",
+            "actName": "\u5e7a\u5e7a\u6d1e\u634c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190328013",
+            "pinyinName": "isduhfoshgf",
+            "lowPrice": "500.00",
+            "hotLevel": "106.5",
+            "veName": "\u4e0a\u5267\u573a",
+            "intro": "\u4e5f\u4e0d\u77e5\u662f\u5728\u8212\u5f64\u7684\u7b14\u4e0b\uff0c\u8fd8\u662f\u73b0\u5b9e\u4e2d\uff0c\u8fd9\u573a\u8de8\u8d8a\u65f6\u7a7a\u7684\u6545\u4e8b\u6c38\u8fdc\u7684\u5b9a\u683c\u5728\u4e861943\u5e74\u3002",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "maxDiscount": "5.0",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190415001",
+            "pinyinName": "damengweichengshz",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "veName": "\u9999\u6e2f\u540d\u90fd",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "isPreSale": 0,
+            "actTime": "2019-04-22-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/042\/20190426012\/v\/b\/D4AC3108-2333-73F6-60FC-DB01EA834344.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u7530\u7eb3\u897f\u5a01\u5ec9\u65af\u7ecf\u5178\u8bdd\u5267\u300a\u6b32\u671b\u53f7\u8857\u8f66\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190426013",
+            "pinyinName": "ywhlcshz",
+            "lowPrice": "278.00",
+            "hotLevel": "107.4",
+            "veName": "\u4e0a\u6d77\u8bdd\u5267\u827a\u672f\u4e2d\u5fc3\u620f\u5267\u6c99\u9f99",
+            "intro": "\u5f53\u6d6a\u6f2b\u78b0\u649e\u73b0\u5b9e\uff0c\u5f53\u7406\u60f3\u78b0\u649e\u6b32\u671b\uff0c\u5f53\u7c97\u4fd7\u4e0e\u4f18\u96c5\u5f3a\u70c8\u5bf9\u7acb\uff0c\u7ec8\u4e8e\u53ea\u5269\u4e0b\u6b32\u671b\u7684\u8857\u8f66\u5728\u6697\u591c\u4e2d\u51b2\u649e",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190507004\/v\/b\/C436AC76-5984-5E04-E401-3BB2AFE876BB.jpg",
+            "maxDiscount": "",
+            "actName": "\u7f8e\u56fd\u767e\u8001\u6c47\u82f1\u6587\u539f\u7248\u97f3\u4e50\u5267 \u300aAn American in Paris \u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190507004",
+            "pinyinName": "ygrblsh",
+            "lowPrice": "488.00",
+            "hotLevel": "116.7",
+            "veName": "\u4e0a\u6d77\u4fdd\u5229\u5927\u5267\u9662",
+            "intro": "\u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece",
+            "isPreSale": 0,
+            "actTime": "2019-06-21-2019-06-27"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "maxDiscount": "3.6",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190408002",
+            "pinyinName": "miniatureworld",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "isPreSale": 0,
+            "actTime": "2019-06-01-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/053\/20190531001\/v\/b\/53949971-2671-AF50-8252-E634E3590A79.jpg",
+            "maxDiscount": "4.9",
+            "actName": "\u897f\u5ba2PLUS\u897f\u5341\u533a\u9ed1\u5361\u4f1a\u5458\u5e74\u5ea6\u8fdb\u9636",
+            "actCode": "20190531001",
+            "pinyinName": "xkplus",
+            "lowPrice": "199.00",
+            "hotLevel": "70.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u897f\u5ba2PLUS\u4f1a\u5458\u72c2\u6b22\u65e5\uff0c\u5f00\u901a\u5373\u4eab\u516d\u5927\u4f1a\u5458\u6743\u76ca",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190402011\/v\/b\/2C7020D9-27AB-C021-3F08-1E4C9CEBD9E2.jpg",
+            "maxDiscount": "",
+            "actName": "\u821e\u5267\u300a\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190402011",
+            "pinyinName": "ybxmddb",
+            "lowPrice": "580.00",
+            "hotLevel": "104.6",
+            "veName": "\u4e0a\u6d77\u56fd\u9645\u821e\u8e48\u4e2d\u5fc3",
+            "intro": "\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/050\/20190509003\/v\/b\/B90D45F1-B79D-043F-3E33-30C7F6DA249A.jpg",
+            "maxDiscount": "",
+            "actName": "\u3010\u9884\u552e\u3011Aimer \u201csoleil et pluie\u201c Asia Tour in Shanghai\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190509003",
+            "pinyinName": "aimsh",
+            "lowPrice": "1380.00",
+            "hotLevel": "168.1",
+            "veName": "\u56fd\u5bb6\u4f1a\u5c55\u4e2d\u5fc3",
+            "intro": "Aimer ",
+            "isPreSale": 1,
+            "actTime": "2019-06-22 \u5468\u516d 19:30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/052\/20190524009\/v\/b\/EC3ADDC0-A015-793E-3C45-98E35399928F.jpg",
+            "maxDiscount": "9.0",
+            "actName": "\u767e\u8001\u6c47\u97f3\u4e50\u5267\u300a\u7070\u59d1\u5a18\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190524009",
+            "pinyinName": "huiguniangshanghai",
+            "lowPrice": "550.00",
+            "hotLevel": "86.8",
+            "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a",
+            "intro": "\u7ecf\u5178\u7ae5\u8bdd\u5168\u65b0\u6f14\u7ece\uff0c\u8ba9\u9b54\u6cd5\u53d1\u751f\u5728\u773c\u524d",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/061\/20190610008\/v\/b\/8E99D5A6-A0D8-132E-2958-10DD15347803.jpg",
+            "maxDiscount": "",
+            "actName": "\u9f99\u661f\u51c9FAN MEETING IN SHANGHAI\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190610008",
+            "pinyinName": "lxlsh",
+            "lowPrice": "680.00",
+            "hotLevel": "116.6",
+            "veName": "\u4e07\u4ee3\u5357\u68a6\u5bab\u6587\u5316\u4e2d\u5fc3(\u539f\u4e0a\u6d77\u6d45\u6c34\u6e7e\u6587\u5316\u827a\u672f\u4e2d\u5fc3)",
+            "intro": "\u9f99\u661f\u51c9FAN MEETING IN SHANGHAI 2019",
+            "isPreSale": 0,
+            "actTime": "2019-06-22 \u5468\u516d"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/062\/20190620001\/v\/b\/F40DD450-A6C1-57AD-846A-6150EE803D2D.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u4e0a\u6d77\u4e0a\u6e2f\u4e3b\u573a\u8db3\u7403\u6bd4\u8d5bVS\u5317\u4eac\u4eba\u548c\uff08\u4e2d\u8d85\uff09\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190620001",
+            "pinyinName": "shsgbjrh",
+            "lowPrice": "60.00",
+            "hotLevel": "0.0",
+            "veName": "\u4e0a\u6d77\u4f53\u80b2\u573a",
+            "intro": "\u4e0a\u6d77\u4e0a\u6e2fVS\u5317\u4eac\u4eba\u548c",
+            "isPreSale": 1,
+            "actTime": "2019-06-22 \u5468\u516d 19:35"
+          }
+        ]
+      },
+      {
+        "title": "\u65e5",
+        "list": [
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/032\/20190328013\/v\/b\/5DD779BE-2D45-A41B-73C8-3731B2F855B1.jpg",
+            "maxDiscount": "",
+            "actName": "\u5e7a\u5e7a\u6d1e\u634c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190328013",
+            "pinyinName": "isduhfoshgf",
+            "lowPrice": "500.00",
+            "hotLevel": "106.5",
+            "veName": "\u4e0a\u5267\u573a",
+            "intro": "\u4e5f\u4e0d\u77e5\u662f\u5728\u8212\u5f64\u7684\u7b14\u4e0b\uff0c\u8fd8\u662f\u73b0\u5b9e\u4e2d\uff0c\u8fd9\u573a\u8de8\u8d8a\u65f6\u7a7a\u7684\u6545\u4e8b\u6c38\u8fdc\u7684\u5b9a\u683c\u5728\u4e861943\u5e74\u3002",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-30"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "maxDiscount": "5.0",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190415001",
+            "pinyinName": "damengweichengshz",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "veName": "\u9999\u6e2f\u540d\u90fd",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "isPreSale": 0,
+            "actTime": "2019-04-22-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/042\/20190426012\/v\/b\/D4AC3108-2333-73F6-60FC-DB01EA834344.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u7530\u7eb3\u897f\u5a01\u5ec9\u65af\u7ecf\u5178\u8bdd\u5267\u300a\u6b32\u671b\u53f7\u8857\u8f66\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190426013",
+            "pinyinName": "ywhlcshz",
+            "lowPrice": "278.00",
+            "hotLevel": "107.4",
+            "veName": "\u4e0a\u6d77\u8bdd\u5267\u827a\u672f\u4e2d\u5fc3\u620f\u5267\u6c99\u9f99",
+            "intro": "\u5f53\u6d6a\u6f2b\u78b0\u649e\u73b0\u5b9e\uff0c\u5f53\u7406\u60f3\u78b0\u649e\u6b32\u671b\uff0c\u5f53\u7c97\u4fd7\u4e0e\u4f18\u96c5\u5f3a\u70c8\u5bf9\u7acb\uff0c\u7ec8\u4e8e\u53ea\u5269\u4e0b\u6b32\u671b\u7684\u8857\u8f66\u5728\u6697\u591c\u4e2d\u51b2\u649e",
+            "isPreSale": 0,
+            "actTime": "2019-06-19-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190507004\/v\/b\/C436AC76-5984-5E04-E401-3BB2AFE876BB.jpg",
+            "maxDiscount": "",
+            "actName": "\u7f8e\u56fd\u767e\u8001\u6c47\u82f1\u6587\u539f\u7248\u97f3\u4e50\u5267 \u300aAn American in Paris \u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190507004",
+            "pinyinName": "ygrblsh",
+            "lowPrice": "488.00",
+            "hotLevel": "116.7",
+            "veName": "\u4e0a\u6d77\u4fdd\u5229\u5927\u5267\u9662",
+            "intro": "\u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece",
+            "isPreSale": 0,
+            "actTime": "2019-06-21-2019-06-27"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "maxDiscount": "3.6",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190408002",
+            "pinyinName": "miniatureworld",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "isPreSale": 0,
+            "actTime": "2019-06-01-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/053\/20190531001\/v\/b\/53949971-2671-AF50-8252-E634E3590A79.jpg",
+            "maxDiscount": "4.9",
+            "actName": "\u897f\u5ba2PLUS\u897f\u5341\u533a\u9ed1\u5361\u4f1a\u5458\u5e74\u5ea6\u8fdb\u9636",
+            "actCode": "20190531001",
+            "pinyinName": "xkplus",
+            "lowPrice": "199.00",
+            "hotLevel": "70.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u897f\u5ba2PLUS\u4f1a\u5458\u72c2\u6b22\u65e5\uff0c\u5f00\u901a\u5373\u4eab\u516d\u5927\u4f1a\u5458\u6743\u76ca",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190402011\/v\/b\/2C7020D9-27AB-C021-3F08-1E4C9CEBD9E2.jpg",
+            "maxDiscount": "",
+            "actName": "\u821e\u5267\u300a\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190402011",
+            "pinyinName": "ybxmddb",
+            "lowPrice": "580.00",
+            "hotLevel": "104.6",
+            "veName": "\u4e0a\u6d77\u56fd\u9645\u821e\u8e48\u4e2d\u5fc3",
+            "intro": "\u6c38\u4e0d\u6d88\u901d\u7684\u7535\u6ce2",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/052\/20190524009\/v\/b\/EC3ADDC0-A015-793E-3C45-98E35399928F.jpg",
+            "maxDiscount": "9.0",
+            "actName": "\u767e\u8001\u6c47\u97f3\u4e50\u5267\u300a\u7070\u59d1\u5a18\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190524009",
+            "pinyinName": "huiguniangshanghai",
+            "lowPrice": "550.00",
+            "hotLevel": "86.8",
+            "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a",
+            "intro": "\u7ecf\u5178\u7ae5\u8bdd\u5168\u65b0\u6f14\u7ece\uff0c\u8ba9\u9b54\u6cd5\u53d1\u751f\u5728\u773c\u524d",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/052\/20190528001\/v\/b\/1A740561-72DF-8981-2C6C-E8460813FDB0.jpg",
+            "maxDiscount": "",
+            "actName": "\u5c0f\u6797\u672a\u90c1\u300aMika Type \u627f  \u8202\u5bb9\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190528001",
+            "pinyinName": "miketypesh",
+            "lowPrice": "1378.00",
+            "hotLevel": "194.0",
+            "veName": "\u4e07\u4ee3\u5357\u68a6\u5bab\u6587\u5316\u4e2d\u5fc3(\u539f\u4e0a\u6d77\u6d45\u6c34\u6e7e\u6587\u5316\u827a\u672f\u4e2d\u5fc3)",
+            "intro": "\u6b4c\u58f0\u6e29\u67d4\u53c8\u6709\u7206\u53d1\u529b\uff0c\u559c\u7231\u7a7f\u8f7b\u841d\u8389\u88c5\u7684\u6b4c\u59ec\uff0c\u6211\u4eec\u8d85\u7231\u7684MIKA",
+            "isPreSale": 0,
+            "actTime": "2019-06-23 \u5468\u65e5 20:00"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/122\/20181220001\/v\/b\/6BA3088D-ACAA-2D17-55C7-F7984C2A4DB6.jpg",
+            "maxDiscount": "",
+            "actName": "\u9884\u8ba2 \u604b\u7231\u97f3\u4e50\u5267\u300a\u957f\u817f\u53d4\u53d4\u300b\u4e2d\u6587\u7248\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181220001",
+            "pinyinName": "ctsssh",
+            "lowPrice": "",
+            "hotLevel": "89.0",
+            "veName": "\u4e0a\u6d77\u4eba\u6c11\u5927\u821e\u53f0",
+            "intro": "\u524d\u540e\u821e\u53f0\u5de7\u5999\u5229\u7528\uff0c\u5851\u9020\u53cc\u5411\u65f6\u7a7a\uff0c\u6570\u4ee5\u767e\u8ba1\u7684\u5e03\u666f\u9053\u5177\uff0c\u821e\u53f0\u6697\u85cf\u7384\u673a\uff0c\u552f\u7f8e\u4e66\u623f\u4e0a\u7ebf\uff0c\u590d\u53e4\u66fc\u54c8\u987f\u4e00\u666f\u8fd8\u539f",
+            "isPreSale": 0,
+            "actTime": "2019-06-20-2019-06-23"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/121\/20181217008\/v\/b\/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+            "maxDiscount": "",
+            "actName": "\u5c42\u5c42\u6050\u60e7 \u9b3c\u5c4b\u5bc6\u5ba4\u300a\u8ff7\u9b42\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181217008",
+            "pinyinName": "mhshhfds",
+            "lowPrice": "",
+            "hotLevel": "83.1",
+            "veName": "\u6c47\u5609\u5927\u53a6",
+            "intro": "\u8fd9\u662f\u4e00\u95f4\u591a\u5e74\u6765\u4f20\u95fb\u95f9\u9b3c\u7684\u9152\u5e97\u623f\u95f4\uff0c\u66fe\u670956\u4e2a\u623f\u5ba2\u5728\u6b64\u79bb\u5947\u81ea\u6740\uff0c\u6b64\u540e\u518d\u65e0\u4eba\u5165\u4f4f\u3002",
+            "isPreSale": 0,
+            "actTime": "2018-12-19-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/040\/20190402024\/v\/b\/A4A7A91A-0104-27D7-21CA-57DC0AEEFADB.jpg",
+            "maxDiscount": "",
+            "actName": "\u661f\u7a7a\u7231\u4e50\u7ae5\u58f0\u5408\u5531\u56e2\u4f53\u9a8c\u8bfe\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190402024",
+            "pinyinName": "sjfofgo",
+            "lowPrice": "",
+            "hotLevel": "78.0",
+            "veName": "\u4e0a\u6d77\u4eba\u6c11\u5927\u821e\u53f0",
+            "intro": "\u7ae5\u58f0\u5408\u5531\u56e2\u4f53\u9a8c",
+            "isPreSale": 0,
+            "actTime": "2019-06-23-2019-10-13"
+          }
+        ]
+      },
+      {
+        "title": "\u4e00",
+        "list": [
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "maxDiscount": "5.0",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190415001",
+            "pinyinName": "damengweichengshz",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "veName": "\u9999\u6e2f\u540d\u90fd",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "isPreSale": 0,
+            "actTime": "2019-04-22-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "maxDiscount": "3.6",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190408002",
+            "pinyinName": "miniatureworld",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "isPreSale": 0,
+            "actTime": "2019-06-01-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/053\/20190531001\/v\/b\/53949971-2671-AF50-8252-E634E3590A79.jpg",
+            "maxDiscount": "4.9",
+            "actName": "\u897f\u5ba2PLUS\u897f\u5341\u533a\u9ed1\u5361\u4f1a\u5458\u5e74\u5ea6\u8fdb\u9636",
+            "actCode": "20190531001",
+            "pinyinName": "xkplus",
+            "lowPrice": "199.00",
+            "hotLevel": "70.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u897f\u5ba2PLUS\u4f1a\u5458\u72c2\u6b22\u65e5\uff0c\u5f00\u901a\u5373\u4eab\u516d\u5927\u4f1a\u5458\u6743\u76ca",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/121\/20181217008\/v\/b\/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+            "maxDiscount": "",
+            "actName": "\u5c42\u5c42\u6050\u60e7 \u9b3c\u5c4b\u5bc6\u5ba4\u300a\u8ff7\u9b42\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181217008",
+            "pinyinName": "mhshhfds",
+            "lowPrice": "",
+            "hotLevel": "83.1",
+            "veName": "\u6c47\u5609\u5927\u53a6",
+            "intro": "\u8fd9\u662f\u4e00\u95f4\u591a\u5e74\u6765\u4f20\u95fb\u95f9\u9b3c\u7684\u9152\u5e97\u623f\u95f4\uff0c\u66fe\u670956\u4e2a\u623f\u5ba2\u5728\u6b64\u79bb\u5947\u81ea\u6740\uff0c\u6b64\u540e\u518d\u65e0\u4eba\u5165\u4f4f\u3002",
+            "isPreSale": 0,
+            "actTime": "2018-12-19-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611027\/v\/b\/99980357-D859-91D5-F014-F53F4B14A4B4.jpg",
+            "maxDiscount": "",
+            "actName": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611027",
+            "pinyinName": "tyssxxk",
+            "lowPrice": "",
+            "hotLevel": "77.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/061\/20190611023\/v\/b\/F489586E-B07E-21F2-C79E-80E4C9F05AE4.jpg",
+            "maxDiscount": "",
+            "actName": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611023",
+            "pinyinName": "etqzxxk",
+            "lowPrice": "",
+            "hotLevel": "78.0",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/061\/20190611025\/v\/b\/C0996B40-EA97-C400-9EE1-4C4F551B922F.jpg",
+            "maxDiscount": "",
+            "actName": "\u8bdd\u5267\u6b4c\u5267\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611025",
+            "pinyinName": "hjgjxxk",
+            "lowPrice": "",
+            "hotLevel": "87.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u8bdd\u5267\u6b4c\u5267\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611021\/v\/b\/A73C67B3-5AAA-FB16-FE0E-A79559AEB702.jpg",
+            "maxDiscount": "",
+            "actName": "\u97f3\u4e50\u4f1a\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611021",
+            "pinyinName": "yyhxxk",
+            "lowPrice": "",
+            "hotLevel": "77.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u97f3\u4e50\u4f1a\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          }
+        ]
+      },
+      {
+        "title": "\u4e8c",
+        "list": [
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "maxDiscount": "5.0",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190415001",
+            "pinyinName": "damengweichengshz",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "veName": "\u9999\u6e2f\u540d\u90fd",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "isPreSale": 0,
+            "actTime": "2019-04-22-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190507004\/v\/b\/C436AC76-5984-5E04-E401-3BB2AFE876BB.jpg",
+            "maxDiscount": "",
+            "actName": "\u7f8e\u56fd\u767e\u8001\u6c47\u82f1\u6587\u539f\u7248\u97f3\u4e50\u5267 \u300aAn American in Paris \u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190507004",
+            "pinyinName": "ygrblsh",
+            "lowPrice": "488.00",
+            "hotLevel": "116.7",
+            "veName": "\u4e0a\u6d77\u4fdd\u5229\u5927\u5267\u9662",
+            "intro": "\u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece",
+            "isPreSale": 0,
+            "actTime": "2019-06-21-2019-06-27"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "maxDiscount": "3.6",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190408002",
+            "pinyinName": "miniatureworld",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "isPreSale": 0,
+            "actTime": "2019-06-01-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/053\/20190531001\/v\/b\/53949971-2671-AF50-8252-E634E3590A79.jpg",
+            "maxDiscount": "4.9",
+            "actName": "\u897f\u5ba2PLUS\u897f\u5341\u533a\u9ed1\u5361\u4f1a\u5458\u5e74\u5ea6\u8fdb\u9636",
+            "actCode": "20190531001",
+            "pinyinName": "xkplus",
+            "lowPrice": "199.00",
+            "hotLevel": "70.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u897f\u5ba2PLUS\u4f1a\u5458\u72c2\u6b22\u65e5\uff0c\u5f00\u901a\u5373\u4eab\u516d\u5927\u4f1a\u5458\u6743\u76ca",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/121\/20181217008\/v\/b\/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+            "maxDiscount": "",
+            "actName": "\u5c42\u5c42\u6050\u60e7 \u9b3c\u5c4b\u5bc6\u5ba4\u300a\u8ff7\u9b42\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181217008",
+            "pinyinName": "mhshhfds",
+            "lowPrice": "",
+            "hotLevel": "83.1",
+            "veName": "\u6c47\u5609\u5927\u53a6",
+            "intro": "\u8fd9\u662f\u4e00\u95f4\u591a\u5e74\u6765\u4f20\u95fb\u95f9\u9b3c\u7684\u9152\u5e97\u623f\u95f4\uff0c\u66fe\u670956\u4e2a\u623f\u5ba2\u5728\u6b64\u79bb\u5947\u81ea\u6740\uff0c\u6b64\u540e\u518d\u65e0\u4eba\u5165\u4f4f\u3002",
+            "isPreSale": 0,
+            "actTime": "2018-12-19-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611027\/v\/b\/99980357-D859-91D5-F014-F53F4B14A4B4.jpg",
+            "maxDiscount": "",
+            "actName": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611027",
+            "pinyinName": "tyssxxk",
+            "lowPrice": "",
+            "hotLevel": "77.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/061\/20190611023\/v\/b\/F489586E-B07E-21F2-C79E-80E4C9F05AE4.jpg",
+            "maxDiscount": "",
+            "actName": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611023",
+            "pinyinName": "etqzxxk",
+            "lowPrice": "",
+            "hotLevel": "78.0",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/061\/20190611025\/v\/b\/C0996B40-EA97-C400-9EE1-4C4F551B922F.jpg",
+            "maxDiscount": "",
+            "actName": "\u8bdd\u5267\u6b4c\u5267\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611025",
+            "pinyinName": "hjgjxxk",
+            "lowPrice": "",
+            "hotLevel": "87.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u8bdd\u5267\u6b4c\u5267\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611021\/v\/b\/A73C67B3-5AAA-FB16-FE0E-A79559AEB702.jpg",
+            "maxDiscount": "",
+            "actName": "\u97f3\u4e50\u4f1a\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611021",
+            "pinyinName": "yyhxxk",
+            "lowPrice": "",
+            "hotLevel": "77.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u97f3\u4e50\u4f1a\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          }
+        ]
+      },
+      {
+        "title": "\u4e09",
+        "list": [
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/041\/20190415001\/v\/b\/BA78AF39-C7AC-1D51-902A-9A9E93C23DAB.jpg",
+            "maxDiscount": "5.0",
+            "actName": "\u5927\u68a6\u5fae\u57ce\u706b\u8f66\u6a21\u578b\u4e3b\u9898\u4e50\u56ed\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190415001",
+            "pinyinName": "damengweichengshz",
+            "lowPrice": "45.00",
+            "hotLevel": "72.1",
+            "veName": "\u9999\u6e2f\u540d\u90fd",
+            "intro": "\u5728\u5927\u68a6\u5fae\u57ce\uff0c\u4e60\u4ee5\u4e3a\u5e38\u548c\u610f\u5916\u60ca\u559c\u878d\u5408\uff0c\u8fc7\u53bb\uff0c\u73b0\u5728\u548c\u672a\u6765\u81ea\u7531\u4e32\u8054\uff0c\u8be0\u91ca\u6587\u5316\u548c\u65f6\u95f4\u7684\u8d85\u524d\u7a7f\u8d8a",
+            "isPreSale": 0,
+            "actTime": "2019-04-22-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190507004\/v\/b\/C436AC76-5984-5E04-E401-3BB2AFE876BB.jpg",
+            "maxDiscount": "",
+            "actName": "\u7f8e\u56fd\u767e\u8001\u6c47\u82f1\u6587\u539f\u7248\u97f3\u4e50\u5267 \u300aAn American in Paris \u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190507004",
+            "pinyinName": "ygrblsh",
+            "lowPrice": "488.00",
+            "hotLevel": "116.7",
+            "veName": "\u4e0a\u6d77\u4fdd\u5229\u5927\u5267\u9662",
+            "intro": "\u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece",
+            "isPreSale": 0,
+            "actTime": "2019-06-21-2019-06-27"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/040\/20190408002\/v\/b\/F6349D25-C834-4BD6-0ECA-506530902419.jpg",
+            "maxDiscount": "3.6",
+            "actName": "\u8d5b\u68a6\u5fae\u7f29\u4e16\u754c\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190408002",
+            "pinyinName": "miniatureworld",
+            "lowPrice": "40.00",
+            "hotLevel": "69.8",
+            "veName": "\u4e0a\u6d77\u767d\u7389\u5170\u5e7f\u573a",
+            "intro": "\u4ee5\u5fae\u7f29\u6a21\u578b\u7ed3\u5408\u9ed1\u79d1\u6280\u624b\u6bb5\u5c55\u793a\u57ce\u5e02\u5386\u53f2\u6587\u5316\uff0c\u5f62\u6210\u5177\u6709\u72ec\u7279\u4eba\u6587\u666f\u89c2\u4e0e\u65f6\u5c1a\u6548\u5e94\u7684\u6587\u5316\u65c5\u6e38\u4ea7\u4e1a",
+            "isPreSale": 0,
+            "actTime": "2019-06-01-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/053\/20190531001\/v\/b\/53949971-2671-AF50-8252-E634E3590A79.jpg",
+            "maxDiscount": "4.9",
+            "actName": "\u897f\u5ba2PLUS\u897f\u5341\u533a\u9ed1\u5361\u4f1a\u5458\u5e74\u5ea6\u8fdb\u9636",
+            "actCode": "20190531001",
+            "pinyinName": "xkplus",
+            "lowPrice": "199.00",
+            "hotLevel": "70.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u897f\u5ba2PLUS\u4f1a\u5458\u72c2\u6b22\u65e5\uff0c\u5f00\u901a\u5373\u4eab\u516d\u5927\u4f1a\u5458\u6743\u76ca",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190610006\/v\/b\/3D764576-B4D0-DC77-7D4B-D09A37A2525D.jpg",
+            "maxDiscount": "",
+            "actName": "the GazettE WORLD TOUR\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20190610006",
+            "pinyinName": "theGazettEshz",
+            "lowPrice": "880.00",
+            "hotLevel": "120.7",
+            "veName": "\u4e07\u4ee3\u5357\u68a6\u5bab\u6587\u5316\u4e2d\u5fc3(\u539f\u4e0a\u6d77\u6d45\u6c34\u6e7e\u6587\u5316\u827a\u672f\u4e2d\u5fc3)",
+            "intro": "the GazettE",
+            "isPreSale": 0,
+            "actTime": "2019-06-26 \u5468\u4e09 20:00"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/118\/121\/20181217008\/v\/b\/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+            "maxDiscount": "",
+            "actName": "\u5c42\u5c42\u6050\u60e7 \u9b3c\u5c4b\u5bc6\u5ba4\u300a\u8ff7\u9b42\u300b\u2014\u4e0a\u6d77\u7ad9",
+            "actCode": "20181217008",
+            "pinyinName": "mhshhfds",
+            "lowPrice": "",
+            "hotLevel": "83.1",
+            "veName": "\u6c47\u5609\u5927\u53a6",
+            "intro": "\u8fd9\u662f\u4e00\u95f4\u591a\u5e74\u6765\u4f20\u95fb\u95f9\u9b3c\u7684\u9152\u5e97\u623f\u95f4\uff0c\u66fe\u670956\u4e2a\u623f\u5ba2\u5728\u6b64\u79bb\u5947\u81ea\u6740\uff0c\u6b64\u540e\u518d\u65e0\u4eba\u5165\u4f4f\u3002",
+            "isPreSale": 0,
+            "actTime": "2018-12-19-2019-12-31"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611027\/v\/b\/99980357-D859-91D5-F014-F53F4B14A4B4.jpg",
+            "maxDiscount": "",
+            "actName": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611027",
+            "pinyinName": "tyssxxk",
+            "lowPrice": "",
+            "hotLevel": "77.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u4f53\u80b2\u8d5b\u4e8b\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/061\/20190611023\/v\/b\/F489586E-B07E-21F2-C79E-80E4C9F05AE4.jpg",
+            "maxDiscount": "",
+            "actName": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611023",
+            "pinyinName": "etqzxxk",
+            "lowPrice": "",
+            "hotLevel": "78.0",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u513f\u7ae5\u4eb2\u5b50\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/061\/20190611025\/v\/b\/C0996B40-EA97-C400-9EE1-4C4F551B922F.jpg",
+            "maxDiscount": "",
+            "actName": "\u8bdd\u5267\u6b4c\u5267\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611025",
+            "pinyinName": "hjgjxxk",
+            "lowPrice": "",
+            "hotLevel": "87.4",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u8bdd\u5267\u6b4c\u5267\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          },
+          {
+            "actHdImgUrl": "",
+            "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611021\/v\/b\/A73C67B3-5AAA-FB16-FE0E-A79559AEB702.jpg",
+            "maxDiscount": "",
+            "actName": "\u97f3\u4e50\u4f1a\u897f\u4eab\u5361\u2014\u6d4b\u8bd5\u4e2d",
+            "actCode": "20190611021",
+            "pinyinName": "yyhxxk",
+            "lowPrice": "",
+            "hotLevel": "77.8",
+            "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+            "intro": "\u97f3\u4e50\u4f1a\u897f\u4eab\u5361",
+            "isPreSale": 0,
+            "actTime": "2019-05-10-2020-12-21"
+          }
+        ]
+      }
+    ],
+    "activityLikeInfo": [
+      {
+        "actCode": "20190402016",
+        "actName": "\u9884\u8ba2 \u8bb8\u5dcd\u300a\u65e0\u5c3d\u5149\u8292\u300b\u5de1\u56de\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "806.00",
+        "intro": "\u613f\u6240\u6709\u7684\u60b2\u4f24\uff0c\u90fd\u5316\u6210\u559c\u60a6\u7684\u529b\u91cf\uff0c\u50cf\u4f60\u7231\u8fd9\u4e16\u754c\uff0c\u4f60\u65e0\u5c3d\u7684\u5149\u8292",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/040\/20190402016\/v\/m\/D5CC8C2B-8DDF-8B9E-4F53-2F32B25EA135.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+        "actTime": "2019.06.29~2019.06.29",
+        "pinyinName": "xuweyanchanghuishz",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 124.2
+      },
+      {
+        "actCode": "20190611016",
+        "actName": "\u9884\u8ba2 \u4e0a\u6d77\u7eff\u5730\u7533\u82b1VS\u5e7f\u5dde\u6052\u5927\u6dd8\u5b9d \uff08\u4e2d\u8d85 \u8db3\u534f\u676f\uff09\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "149.00",
+        "intro": "\u4e0a\u6d77\u7533\u82b1VS\u5e7f\u5dde\u6052\u5927",
+        "maxDiscount": "9.4",
+        "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/061\/20190611016\/v\/m\/084BFA65-3BD0-A15B-F0DD-C51AF3032D33.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u6d77\u8679\u53e3\u8db3\u7403\u573a",
+        "actTime": "2019.07.01~2019.07.01",
+        "pinyinName": "shhdsh",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 84.1
+      },
+      {
+        "actCode": "20190509006",
+        "actName": "\u9884\u8ba2 \u6797\u5cefHEART ATTACK\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "698.00",
+        "intro": "\u6797\u5cefHEART ATTACK\u6f14\u5531\u4f1a",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190509006\/v\/m\/628B4B34-1767-CCD5-F2E4-3A2192275AF2.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e1c\u65b9\u4f53\u80b2\u4e2d\u5fc3",
+        "actTime": "2019.06.29~2019.06.29",
+        "pinyinName": "lfshsh",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 129.5
+      },
+      {
+        "actCode": "20190328013",
+        "actName": "\u5e7a\u5e7a\u6d1e\u634c\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "500.00",
+        "intro": "\u4e5f\u4e0d\u77e5\u662f\u5728\u8212\u5f64\u7684\u7b14\u4e0b\uff0c\u8fd8\u662f\u73b0\u5b9e\u4e2d\uff0c\u8fd9\u573a\u8de8\u8d8a\u65f6\u7a7a\u7684\u6545\u4e8b\u6c38\u8fdc\u7684\u5b9a\u683c\u5728\u4e861943\u5e74\u3002",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/032\/20190328013\/v\/m\/5DD779BE-2D45-A41B-73C8-3731B2F855B1.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u5267\u573a",
+        "actTime": "2019.06.15~2019.06.23",
+        "pinyinName": "isduhfoshgf",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 106.5
+      },
+      {
+        "actCode": "20190521003",
+        "actName": "\u9884\u8ba2 DOTA2 \u56fd\u9645\u9080\u8bf7\u8d5b\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "2178.00",
+        "intro": "DOTA2 \u56fd\u9645\u9080\u8bf7\u8d5b",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/052\/20190521003\/v\/m\/D3D2E893-C71B-1581-B48E-9D87F0EB1D9F.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+        "actTime": "2019.08.20~2019.08.25",
+        "pinyinName": "dotashsh",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 183
+      },
+      {
+        "actCode": "20190605001",
+        "actName": "\u9884\u8ba2 SHAWN MENDES  THE TOUR \u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "1580.00",
+        "intro": "\u683c\u83b1\u7f8e\u63d0\u540d\u83b7\u5f97\u8005\u3001\u591a\u5f20\u767d\u91d1\u5531\u7247\u8ba4\u8bc1\u7684\u5531\u4f5c\u7537\u6b4c\u624bShawn Mendes",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/060\/20190605001\/v\/m\/18ADEB2A-D738-AB8B-839C-62A48D259576.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+        "actTime": "2019.09.28~2019.09.28",
+        "pinyinName": "shawnmendessh",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 186.1
+      },
+      {
+        "actCode": "20190524008",
+        "actName": "\u9884\u8ba2 \u5f20\u827a\u5174\u5de1\u56de\u6f14\u5531\u4f1a\u300a\u5927\u822a\u6d77\u300b\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "1590.00",
+        "intro": "\u4ed6\u4ee5\u5b9e\u529b\u4e3a\u8239\uff0c\u52aa\u529b\u4e3a\u5e06\uff0c\u5bfb\u627e\u540d\u4e3a\u68a6\u60f3\u7684\u5b9d\u85cf",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/052\/20190524007\/v\/m\/2626DB23-4089-798B-5345-8082DBDE6C20.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+        "actTime": "2019.07.06~2019.07.06",
+        "pinyinName": "zyxychsh",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 143.9
+      },
+      {
+        "actCode": "20190321004",
+        "actName": "\u9884\u8ba2 \u6cd5\u8bed\u539f\u7248\u97f3\u4e50\u5267\u300a\u5df4\u9ece\u5723\u6bcd\u9662\u300b\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "260.00",
+        "intro": "\u5df4\u9ece\u5723\u6bcd\u9662\u503c\u5f97\u770b\u7684\u4e00\u90e8\u97f3\u4e50\u5267\u3002",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/032\/20190321004\/v\/m\/B96689F5-266F-FBBE-F373-83139B3B6B07.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a",
+        "actTime": "2019.07.18~2019.07.26",
+        "pinyinName": "blsmy",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 115.4
+      },
+      {
+        "actCode": "20190507004",
+        "actName": "\u7f8e\u56fd\u767e\u8001\u6c47\u82f1\u6587\u539f\u7248\u97f3\u4e50\u5267 \u300aAn American in Paris \u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece\u300b\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "488.00",
+        "intro": "\u4e00\u4e2a\u7f8e\u56fd\u4eba\u5728\u5df4\u9ece",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image4.xishiqu.cn\/upload\/activity\/119\/050\/20190507004\/v\/m\/C436AC76-5984-5E04-E401-3BB2AFE876BB.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u6d77\u4fdd\u5229\u5927\u5267\u9662",
+        "actTime": "2019.06.21~2019.06.27",
+        "pinyinName": "ygrblsh",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 116.7
+      },
+      {
+        "actCode": "20190523005",
+        "actName": "\u9884\u8ba2 \u300a\u51b0\u4e0a\u8fea\u58eb\u5c3c \u51b0\u96ea\u5947\u7f18\u300b\u5de1\u6f14\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "180.00",
+        "intro": "\u7ecf\u5178\u6545\u4e8b \u51b0\u9762\u7efd\u653e",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/052\/20190523005\/v\/m\/38EB4494-599A-58AB-F378-ABE43749FA8A.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+        "actTime": "2019.07.12~2019.07.14",
+        "pinyinName": "bsdsnsh",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 91.3
+      },
+      {
+        "actCode": "20190308001",
+        "actName": "\u9884\u8ba2 \u97f3\u4e50\u5267\u300a\u767d\u591c\u884c\u300b\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "140.00",
+        "intro": "2018\u97f3\u4e50\u5267\u9ed1\u9a6c\uff0c2019\u518d\u5ea6\u5f15\u71c3\u9b54\u90fd\uff0c\u767d\u591c\u884c\u97f3\u4e50\u5267\uff0c\u6625\u590f\u5de1\u6f14\u4e0a\u6d77\u7ad9",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/030\/20190308001\/v\/m\/5B4E590B-48CF-FBBD-0102-53C7980B1D35.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u6c7d\u4e0a\u6d77\u6587\u5316\u5e7f\u573a",
+        "actTime": "2019.06.29~2019.07.07",
+        "pinyinName": "byxyyj",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 101.2
+      },
+      {
+        "actCode": "20190521002",
+        "actName": "\u9884\u8ba2 \u8d39\u7389\u6e05\u544a\u522b\u5de1\u6f14\u5185\u5730\u7ec8\u573a\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "550.00",
+        "intro": "\u8d39\u7389\u6e05\u544a\u522b\u5de1\u6f14\u5185\u5730\u7ec8\u573a",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/052\/20190521002\/v\/m\/BD733ADC-6DDE-B4BD-1CB1-A5D60BD499D9.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e1c\u65b9\u4f53\u80b2\u4e2d\u5fc3",
+        "actTime": "2019.10.26~2019.10.26",
+        "pinyinName": "fyuqsh",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 117.8
+      },
+      {
+        "actCode": "20190221006",
+        "actName": "\u963f\u52a0\u838e \u514b\u91cc\u65af\u8482\u4f20\u4e16\u5de8\u8457 \u65e0\u4eba\u751f\u8fd8\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "229.00",
+        "intro": "\u53e4\u8001\u7684\u7ae5\u8c23\u5982\u540c\u8bc5\u5492\uff0c\u5728\u5fc3\u4e2d\u4e00\u6b21\u6b21\u54cd\u8d77\uff0c\u63ed\u5f00\u4e86\u4eba\u4eec\u5404\u81ea\u9690\u85cf\u5728\u5fc3\u4e2d\u591a\u5e74\u7684\u79d8\u5bc6",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image.xishiqu.cn\/upload\/activity\/119\/022\/20190221006\/v\/m\/2C6EFB3C-94B3-9454-4A19-1853DCEB887A.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u7f8e\u742a\u5927\u620f\u9662",
+        "actTime": "2019.07.25~2019.08.04",
+        "pinyinName": "wrshshz",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 136
+      },
+      {
+        "actCode": "20190527001",
+        "actName": "\u3010\u9884\u552e\u30112019\u5f20\u827a\u5174\u5de1\u56de\u6f14\u5531\u4f1a[\u5927\u822a\u6d77\u2022\u4e0a\u6d77\u7ad9]",
+        "lowPrice": "1950.00",
+        "intro": "",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/052\/20190527001\/v\/m\/BB118891-73FA-76F4-2824-05EAF6A24E12.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u6885\u8d5b\u5fb7\u65af\u2014\u5954\u9a70\u6587\u5316\u4e2d\u5fc3",
+        "actTime": "2019.07.06~2019.07.06",
+        "pinyinName": "zyxsh",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 158.7
+      },
+      {
+        "actCode": "20190605009",
+        "actName": "\u6697\u604b\u6843\u82b1\u6e90\uff08\u4e13\u5c5e\u7248\uff09\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "580.00",
+        "intro": "\u6697\u604b\u6843\u82b1\u6e90\uff08\u4e13\u5c5e\u7248\uff09",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image3.xishiqu.cn\/upload\/activity\/119\/060\/20190605009\/v\/m\/C3A7342B-711E-9561-F87F-C53C33D9A3EE.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u5267\u573a",
+        "actTime": "2019.09.19~2019.10.13",
+        "pinyinName": "althyzsbshz",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 115.3
+      },
+      {
+        "actCode": "20190513008",
+        "actName": "\u9884\u8ba2 2019\u82f1\u8d85\u4e9a\u6d32\u676f\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "323.00",
+        "intro": "\u66fc\u57ce\u3001\u7ebd\u5361\u65af\u5c14\u8054\u3001\u897f\u6c49\u59c6\u8054\u548c\u72fc\u961f\u5c06\u4e3a\u4e2d\u56fd\u7403\u8ff7\u5949\u732e\u539f\u6c41\u539f\u5473\u7684\u82f1\u8d85\u7cbe\u5f69\u5bf9\u51b3",
+        "maxDiscount": "",
+        "actImgUrl": "http:\/\/image6.xishiqu.cn\/upload\/activity\/119\/051\/20190513008\/v\/m\/9FC47B06-8D4C-18F8-8646-7A2BC65D23A5.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u6d77\u8679\u53e3\u8db3\u7403\u573a",
+        "actTime": "2019.07.20~2019.07.20",
+        "pinyinName": "ycyzbsh",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 87
+      },
+      {
+        "actCode": "20190408001",
+        "actName": "2019\u56fd\u9645\u51a0\u519b\u676f\u7531\u53cb\u90a6\u4fdd\u9669\u5448\u73b0\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "759.00",
+        "intro": "\u5f3a\u5f3a\u76f8\u9047\uff0c\u4e3a\u5404\u81ea\u7684\u8363\u8a89\u800c\u6218\uff0c\u4e3a\u4e2d\u56fd\u7403\u8ff7\u5e26\u6765\u4e00\u573a\u4e0d\u5bb9\u9519\u8fc7\u7684\u7cbe\u5f69\u5bf9\u51b3",
+        "maxDiscount": "8.0",
+        "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/040\/20190408001\/v\/m\/DB01295E-F4A4-A98B-C16F-8B623C1A5B53.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e0a\u6d77\u8679\u53e3\u8db3\u7403\u573a",
+        "actTime": "2019.07.25~2019.07.25",
+        "pinyinName": "guojiguanjunbeishz",
+        "isPreSale": 0,
+        "statusTag": "\u552e\u7968\u4e2d",
+        "hotLevel": 82
+      },
+      {
+        "actCode": "20190504001",
+        "actName": "\u9884\u5b9a \u738b\u5fc3\u51cc\u300aCYNDI LOVES 2SING \u7231  \u5fc3\u51cc\u300b\u5de1\u56de\u6f14\u5531\u4f1a\u2014\u4e0a\u6d77\u7ad9",
+        "lowPrice": "550.00",
+        "intro": "7\u670820\u65e5\u8ba9\u6211\u4eec\u671f\u5f85CYNDI LOVES 2SING \u7231  \u5fc3\u51cc\u5de1\u56de\u6f14\u5531\u4f1a\u751c\u871c\u98ce\u66b4\u5e2d\u5377\u4e0a\u6d77\uff01",
+        "maxDiscount": "9.7",
+        "actImgUrl": "http:\/\/image5.xishiqu.cn\/upload\/activity\/119\/050\/20190504001\/v\/m\/53559D4E-C459-08C7-7E19-22A0CD3AB3CB.jpg",
+        "actHdImgUrl": "",
+        "veName": "\u4e1c\u65b9\u4f53\u80b2\u4e2d\u5fc3",
+        "actTime": "2019.07.20~2019.07.20",
+        "pinyinName": "cyndilovesingych",
+        "isPreSale": 1,
+        "statusTag": "\u9884\u8ba2\u4e2d",
+        "hotLevel": 99.3
+      }
+    ],
+    "noticeInfo": ""
+  }
+}

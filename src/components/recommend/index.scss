@@ -1,0 +1,114 @@
+.recommend {
+  display: flex;
+  // justify-content: space-between;
+  height: 190px;
+
+  .main {
+    flex: 1;
+    padding-right: 5px;
+
+    .item {
+      height: 100%;
+      width: 100%;
+      padding: 14px;
+      background-color: #fff;
+      border-radius: 6px;
+      overflow: hidden;
+      .img {
+        height: 60px;
+        margin-bottom: 15px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .title {
+        margin: 6px 0 12px 0;
+        color: #333;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 16px;
+      }
+      .countDown {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: space-between;
+        span {
+          display: inline-block;
+          color: #fff;
+          font-weight: bold;
+          background: #333;
+          height: 30px;
+          width: 30px;
+          line-height: 30px;
+          text-align: center;
+        }
+      }
+      .next {
+        font-size: 13px;
+        color: #999;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .minor {
+    flex: 1;
+    padding-left: 5px;
+    flex-direction: column;
+    display: flex;
+
+    .item:first-child {
+      margin-bottom: 5px;
+    }
+
+    .item:last-child {
+      margin-top: 5px;
+    }
+
+    .item {
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 6px;
+      padding: 14px;
+      display: flex;
+      overflow: hidden;
+      .left {
+        flex: 1;
+        margin-right: 10px;
+        width: 100%;
+
+        .title {
+          margin: 6px 0 12px 0;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          color: #333;
+        }
+
+        .remark {
+          padding: 0 5px;
+          border-radius: 10px;
+          border: 1px solid #FFA478;
+          color: #FFA478;
+          font-size: 14px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          line-height: 20px;
+        }
+      }
+
+      .img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+
+}
