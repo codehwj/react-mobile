@@ -27,7 +27,7 @@ class DashBoard extends Component {
         {
           pathname === "/" ? <Redirect to={RedirectRouter}></Redirect> : null
         }
-        <div style={{marginTop:45,marginBottom:64}}>
+        <div style={{marginTop:45,marginBottom:70}}>
           <Switch>
             {
               navList.map(v=>(

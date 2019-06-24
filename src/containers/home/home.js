@@ -4,7 +4,7 @@ import { Carousel, WingBlank, Grid, WhiteSpace } from 'antd-mobile'
 import Recomment from '../../components/recommend/recommend'
 // import JListView from '../../components/j-list-view/j-list-view'
 import ListBlock from '../../components/list-block/list-block'
-import './index.css'
+import './index.scss'
 
 class Home extends Component {
   constructor(props) {
@@ -50,7 +50,7 @@ class Home extends Component {
 
   render() {
     return (
-      this.state.result &&
+      this.state.result ?
         <WingBlank size="md">
           <WhiteSpace size="md" />
           <Carousel className="space-carousel"
@@ -82,11 +82,11 @@ class Home extends Component {
           <Recomment mktInfo={this.state.result.mktInfo}></Recomment>
           <WhiteSpace size="md" />
           <div className="block-wrapper">
-            <ListBlock></ListBlock>
+            <ListBlock activityCateInfo={this.state.result.activityCateInfo}></ListBlock>
           </div>
           {/* /* <WhiteSpace size="sm" /> */}
           {/* <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.props.home.dataSource}></JListView> : null */}
-        </WingBlank>
+        </WingBlank> : null
     )
   }
 }
