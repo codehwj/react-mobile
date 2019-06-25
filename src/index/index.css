@@ -32,7 +32,7 @@ code {
 }
 .am-tab-bar{
   position: fixed;
-  bottom: 0;
+  bottom: -1px;
   z-index: 9999;
   width: 100%;
   height: 64px!important;

@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
-import { Card, WingBlank, WhiteSpace } from 'antd-mobile'
 import { connect } from 'react-redux'
-import { getChatsList } from '@action/chats'
+// import { WingBlank, WhiteSpace } from 'antd-mobile'
+import Category from '../../components/category/category'
+import { setClassifyCategory } from '@action/classify'
+import { clone } from 'jscommon/common'
 
 @connect(
-  state=>state,
+  state => state,
   {
-    getChatsList
+    setClassifyCategory
   }
 )
-class Chats extends Component {
+
+class Classify extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -17,37 +20,24 @@ class Chats extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      this.props.getChatsList();
+      this.props.setClassifyCategory();
+      this.setState({
+        category: clone(this.props.classify.categorys)
+      })
     }, 400);
   }
   render() {
     return (
-      <div>
-        <WingBlank size="md">
-          {
-            this.props.chats.chatsList && this.props.chats.chatsList.length > 0 ?
-              this.props.chats.chatsList.map((item, index) => (
-                <div key={index}>
-                  <WhiteSpace size="md" />
-                  <Card onClick={() => console.log(item)}>
-                    <Card.Header
-                      title={item.title}
-                      thumb={item.img}
-                      extra={<span>{item.headerExtra}</span>}
-                    />
-                    <Card.Body>
-                      <div>{item.body}</div>
-                    </Card.Body>
-                    <Card.Footer content={item.footerContent} extra={<div>{item.footerExtra}</div>} />
-                  </Card>
-                  </div>
-              )) : null
-          }
-          <WhiteSpace size="lg" />
-        </WingBlank>
-      </div>
+        <div className="classify">
+          <div>
+            {
+              this.state.category ?
+                <Category categorys={this.state.category} ></Category> : null
+            }
+          </div>
+        </div>
     )
   }
 }
 
-export default Chats
+export default Classify

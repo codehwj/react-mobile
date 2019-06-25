@@ -12,7 +12,7 @@ export default class NodeList extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props.nodes)
+    
   }
   getWrapperWidth(allNode) {
     return allNode * 120 + allNode * 12;
@@ -28,16 +28,19 @@ export default class NodeList extends Component {
               this.props.nodes.map((node, index) => (
                 <div className="node node--activity vertical" key={index}>
                   <div className="thumbnail" style={{ backgroundImage: `url(${node.actImgUrl})` }}>
+                    <div className={node.maxDiscount !== '' && node.maxDiscount != null ? "thumbnail__tag ": "thumbnail__tag hide"}>
+                      <span>{node.maxDiscount}</span>折起
+                    </div>
                     <div className="thumbnail__hot">
                       <span>{node.hotLevel}</span>℃
-                  </div>
+                    </div>
                   </div>
                   <div className="main">
                     <h1 className="title">{node.actName}</h1>
                     <div className="price">
                       <div>
-                        <span>￥{node.lowPrice}</span>
-                        <span className="sub">起</span>
+                        <span>￥{node.lowPrice || 0}</span>
+                        <span className="sub">&nbsp;&nbsp;起</span>
                       </div>
                     </div>
                     <div className="date">{node.actTime}</div>
@@ -46,8 +49,6 @@ export default class NodeList extends Component {
                 </div>
               ))
             }
-
-
           </div>
         </div>
         : null

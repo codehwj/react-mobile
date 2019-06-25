@@ -7,7 +7,7 @@ import {
 import DashBoard from '../containers/dashBoard/dashBoard'
 import Register from '../containers/register/register'
 import Login from '../containers/login/login'
-import GoodsDetail from '../containers/goods-detail/goods-detail'
+// import GoodsDetail from '../containers/goods-detail/goods-detail'
 
 class Routers extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Routers extends Component {
         <Switch>
           <Route path="/Login" component={Login}></Route>
           <Route path="/Register" component={Register}></Route>
-          <Route path="/goodsDetail/:goodsId" component={GoodsDetail}></Route>
+          {/* <Route path="/goodsDetail/:goodsId" component={GoodsDetail}></Route> */}
           <Route component={DashBoard}></Route>
         </Switch>
       </BrowserRouter>

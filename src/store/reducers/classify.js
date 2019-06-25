@@ -1,13 +1,13 @@
 import merge from 'lodash/merge';
-import { CHATS } from '../mutation-types';
+import { CLASSITY } from '../mutation-types';
 
 export default function () {
   const initialState = {};
-  return function chats(state = initialState, action) {
+  return function classify(state = initialState, action) {
     switch (action.type) {
-      case CHATS.GET_CHATS_LIST:
+      case CLASSITY.SET_CLASSITY_CATEGORY:
         return merge({}, state, action.payload);
-      case CHATS.CLEAR:
+      case CLASSITY.CLEAR:
         return merge({}, initialState, {});
       default:
         return state;

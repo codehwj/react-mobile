@@ -1,11 +1,21 @@
 import React, { Component } from 'react'
 import DataClass from 'jscommon/DataClass';
-import { Carousel, WingBlank, Grid, WhiteSpace } from 'antd-mobile'
+import { Carousel, WingBlank, WhiteSpace } from 'antd-mobile'
 import Recomment from '../../components/recommend/recommend'
-// import JListView from '../../components/j-list-view/j-list-view'
 import ListBlock from '../../components/list-block/list-block'
+import FavoursBlock from '../../components/favours-block/favours-block'
+import LatestBlock from '../../components/latest-blcok/latest-block'
+import Category from '../../components/category/category'
+import { connect } from 'react-redux'
+import { setHomeResult } from '@action/home'
 import './index.scss'
 
+@connect(
+  state => state.home,
+  {
+    setHomeResult
+  }
+)
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -28,6 +38,7 @@ class Home extends Component {
       this.setState({
         result: response.result
       })
+      this.props.setHomeResult(response.result);
     }
   }
 
@@ -77,15 +88,16 @@ class Home extends Component {
           </Carousel>
 
           <WhiteSpace size="md" />
-          <Grid data={this.state.result.frontCateInfo} columnNum="6" carouselMaxRow="1" isCarousel onClick={_el => console.log(_el)} />
+          <Category categorys={this.state.result.frontCateInfo} ></Category>
+
           <WhiteSpace size="md" />
           <Recomment mktInfo={this.state.result.mktInfo}></Recomment>
           <WhiteSpace size="md" />
           <div className="block-wrapper">
+            <LatestBlock activitySevenInfo={this.state.result.activitySevenInfo}></LatestBlock>
             <ListBlock activityCateInfo={this.state.result.activityCateInfo}></ListBlock>
+            <FavoursBlock activityLikeInfo={this.state.result.activityLikeInfo}></FavoursBlock>
           </div>
-          {/* /* <WhiteSpace size="sm" /> */}
-          {/* <JListView renderHeader="哈哈哈哈" isLoading={this.state.isLoading} onEndReached={this.onEndReached} dataSource={this.props.home.dataSource}></JListView> : null */}
         </WingBlank> : null
     )
   }

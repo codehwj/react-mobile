@@ -40,3 +40,9 @@ export function loadGridData() {
     })
   }
 }
+
+export function setHomeResult(result) {
+  return (dispatch, getState) => {
+    dispatch({ type: HOME.SET_HOME_RESULT, payload: { result: result} })
+  }
+}

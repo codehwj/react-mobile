@@ -6,6 +6,8 @@ export default function () {
   const initialState = {};
   return function home(state = initialState, action) {
     switch (action.type) {
+      case HOME.SET_HOME_RESULT:
+        return merge({}, state, action.payload);
       case HOME.SET_HOME_LISTVIEW:
         return merge({}, state, action.payload);
       case HOME.SET_CAROUSEL_DATA:

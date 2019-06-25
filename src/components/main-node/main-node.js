@@ -25,6 +25,9 @@ export default class MainNode extends Component {
               <div className="bg" style={{ backgroundImage: `url(${node.actImgUrl})` }}></div>
               <div className="mask"></div>
               <div className="thumbnail" style={{ backgroundImage: `url(${node.actImgUrl})` }}>
+                <div className={node.maxDiscount !== '' && node.maxDiscount != null ? "thumbnail__tag " : "thumbnail__tag hide"}>
+                  <span>{node.maxDiscount}</span>折起
+                </div>
                 <div className="thumbnail__hot" >
                   <span>{node.hotLevel}</span>℃
             </div>
