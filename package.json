@@ -161,5 +161,6 @@
       ],
       "@babel/plugin-proposal-class-properties"
     ]
-  }
+  },
+  "proxy": "http://m.xishiqu.com"
 }

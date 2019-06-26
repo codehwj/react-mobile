@@ -81,9 +81,12 @@ class Countdown extends Component {
     })
   }
   componentDidMount() {
-    setInterval(() => {
+    this.Interval =  setInterval(() => {
       this.getDateSpace();
     }, 1000);
+  }
+  componentWillUnmount() {
+    clearInterval(this.Interval);
   }
   render() {
     return (

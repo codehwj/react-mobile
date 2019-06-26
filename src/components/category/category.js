@@ -11,19 +11,34 @@ export default class Category extends Component {
     this.state = {
       activeIndex: 0
     }
+    if (props.hasOwnProperty("onClickCategoryItem")) {
+      props.onClickCategoryItem(props.categorys[0], 0); 
+    }
   }
 
   componentDidMount() {
-
   }
+  /**
+   * @author hwj
+   * @date 2019-6-25
+   * @description 根据节点的数量获取滚动wrapper的宽度
+   *  */
   getWrapperWidth(allNode) {
     return allNode * 62 + allNode * 12;
   }
 
+  /**
+   * @description 分类item的点击事件
+   *  */
   clickCategory(item, index) {
+    if (this.state.activeIndex === index) return;
     this.setState({
       activeIndex: index
     })
+    // 调用父级事件, 传参到父级组件
+    if (this.props.hasOwnProperty("onClickCategoryItem")) {
+      this.props.onClickCategoryItem(item, index);
+    }
   }
 
   render() {

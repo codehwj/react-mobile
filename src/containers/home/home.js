@@ -26,12 +26,6 @@ class Home extends Component {
     };
   }
 
-  async loadStoreList() {
-    this.props.loadStoreListView();
-    this.setState({
-      isLoading: false,
-    })
-  }
   async getAllHomeData() {
     const response = await DataClass.mockdata('/home/getAllHomeData', {})
     if (response.code === '200') {
@@ -42,22 +36,18 @@ class Home extends Component {
     }
   }
 
-  onEndReached = (event) => {
-    if (this.state.isLoading) {
-      return;
-    }
-    this.setState({ isLoading: true });
-    setTimeout(() => {
-      this.loadStoreList();
-    }, 1000);
-  }
-
 
   componentDidMount() {
-    setTimeout(() => {
+    this.timer = setTimeout(() => {
       this.getAllHomeData();
     }, 100);
   }
+
+  componentWillUnmount() {
+    this.timer = null;
+    clearTimeout(this.timer);
+  }
+  
 
   render() {
     return (
