@@ -98,7 +98,7 @@ class Classify extends Component {
         onRefresh={() => {this.refreshClassify()}}
       >
         <div className="classify" style={{ backgroundColor: "#fff" }}>
-          <div>
+          <div> 
             {
               this.state.category ?
                 <Category categorys={this.state.category} onClickCategoryItem={(cate, index) => { this.clickCategoryItem(cate, index) }}></Category> : null
