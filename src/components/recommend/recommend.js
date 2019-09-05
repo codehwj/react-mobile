@@ -21,7 +21,7 @@ class Recommend extends Component {
             <div className="recommend">
               <div className="main">
                 {
-                  this.props.mktInfo.filter(item => item.isMiaosha === 1).map((item, index) => (
+                  this.props.mktInfo.filter(item => item.msStartTime && item.nextStartTime).map((item, index) => (
                     <div className="item" key={index}>
                       <div className="img" style={{ backgroundImage: `url(${item.imgUrl})` }}></div>
                       <h4 className="title">{item.actTitle}</h4>
@@ -33,7 +33,7 @@ class Recommend extends Component {
               </div>
               <div className="minor">
                 {
-                  this.props.mktInfo.filter(item => item.isMiaosha === 0).map((item, index) => (
+                  this.props.mktInfo.filter(item => !item.msStartTime && !item.nextStartTime).map((item, index) => (
                     <div className="item" key={index}>
                       <div className="left">
                         <h4 className="title">{item.actTitle}</h4>

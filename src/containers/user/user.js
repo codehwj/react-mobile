@@ -26,7 +26,7 @@ class User extends Component {
 
   render(h) {
     return (
-      <div>
+      <div className="main">
         <List renderHeader={() => ''} className="my-list">
           <Item
             arrow="horizontal"

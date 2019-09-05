@@ -20,7 +20,6 @@ class Classify extends Component {
     this.state = {
       refreshing: false,
       down: false,
-      height: document.documentElement.clientHeight,
       hasMore: true
     };
   }
@@ -88,10 +87,7 @@ class Classify extends Component {
     return (
       <PullToRefresh
         damping={60}
-        style={{
-          height: this.state.height,
-          overflow: 'auto',
-        }}
+        className="main"
         indicator={this.state.down ? {} : { deactivate: '上拉可以刷新' }}
         direction={this.state.down ? 'down' : 'up'}
         refreshing={this.state.refreshing}

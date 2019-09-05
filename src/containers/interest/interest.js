@@ -29,7 +29,7 @@ class Info extends Component {
 
   render(h) {
     return (
-      <div style={{marginBottom: 65}}>
+      <div className="main">
         <List renderHeader={() => this.state.listHeader} className="my-list">
           {
             this.state.data && this.state.data.length > 0 ?

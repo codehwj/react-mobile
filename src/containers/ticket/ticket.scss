@@ -1,0 +1,79 @@
+.card {
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: left;
+  padding: 15px 10px;
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .subTitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  .thumbnail {
+    height: calc(100vw / 2);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+  }
+  .footer {
+    .avatar {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      vertical-align: middle;
+      margin-right: 10px;
+      .am-icon-md {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    &.footer > div {
+      display: inline-block;
+      // vertical-align: middle;
+    }
+    .issueInfo {
+      height: 40px;
+      line-height: 40px;
+      vertical-align: middle;
+      span {
+        display: block;
+        height: 50%;
+        line-height: 20px;
+      }
+      .author {
+        font-size: 16px;
+      }
+      .time {
+        font-size: 15px;
+        color: #999;
+      }
+    }
+    .right {
+      float: right;
+      & > div {
+        vertical-align: middle;
+      }
+      div {
+        font-size: 16px;
+        line-height: 40px;
+        display: inline-block;
+        .am-icon {
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+        &.flow {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+// calc

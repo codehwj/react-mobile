@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import DataClass from 'jscommon/DataClass';
+import { fetchGET } from 'jscommon/DataClass';
 import { Carousel, WingBlank, WhiteSpace } from 'antd-mobile'
 import Recomment from '../../components/recommend/recommend'
 import ListBlock from '../../components/list-block/list-block'
@@ -27,7 +27,9 @@ class Home extends Component {
   }
 
   async getAllHomeData() {
-    const response = await DataClass.mockdata('/home/getAllHomeData', {})
+    let url = `/ajax/home/index?`;
+    // const response = await DataClass.mockdata('/home/getAllHomeData', {})
+    const response = await fetchGET(url, {cityCode: "021" });
     if (response.code === '200') {
       this.setState({
         result: response.result
@@ -47,48 +49,51 @@ class Home extends Component {
     this.timer = null;
     clearTimeout(this.timer);
   }
-  
+
 
   render() {
     return (
       this.state.result ?
-        <WingBlank size="md">
-          <WhiteSpace size="md" />
-          <Carousel className="space-carousel"
-            autoplay={false}
-            infinite
-          >
-            {this.state.result.bannerInfo.map((item, index) => (
-              <a
-                key={index}
-                href={item.url}
-                style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight, borderRadius: 5, overflow: 'hidden' }}
-              >
-                <img
-                  src={item.imgUrl}
-                  alt=""
-                  style={{ width: '100%', verticalAlign: 'top' }}
-                  onLoad={() => {
-                    window.dispatchEvent(new Event('resize'));
-                    this.setState({ imgHeight: 'auto' });
-                  }}
-                />
-              </a>
-            ))}
-          </Carousel>
+        <div className="main">
+          <WingBlank size="md">
+            <WhiteSpace size="md" />
+            <Carousel className="space-carousel"
+              autoplay={false}
+              infinite
+            >
+              {this.state.result.bannerInfo.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.url}
+                  style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight, borderRadius: 5, overflow: 'hidden' }}
+                >
+                  <img
+                    src={item.imgUrl}
+                    alt=""
+                    style={{ width: '100%', verticalAlign: 'top' }}
+                    onLoad={() => {
+                      window.dispatchEvent(new Event('resize'));
+                      this.setState({ imgHeight: 'auto' });
+                    }}
+                  />
+                </a>
+              ))}
+            </Carousel>
 
-          <WhiteSpace size="md" />
-          <Category categorys={this.state.result.frontCateInfo} ></Category>
+            <WhiteSpace size="md" />
+            <Category categorys={this.state.result.frontCateInfo} ></Category>
 
-          <WhiteSpace size="md" />
-          <Recomment mktInfo={this.state.result.mktInfo}></Recomment>
-          <WhiteSpace size="md" />
+            <WhiteSpace size="md" />
+            <Recomment mktInfo={this.state.result.mktInfo}></Recomment>
+            <WhiteSpace size="md" />
+
+          </WingBlank>
           <div className="block-wrapper">
             <LatestBlock activitySevenInfo={this.state.result.activitySevenInfo}></LatestBlock>
             <ListBlock activityCateInfo={this.state.result.activityCateInfo}></ListBlock>
             <FavoursBlock activityLikeInfo={this.state.result.activityLikeInfo}></FavoursBlock>
           </div>
-        </WingBlank> : null
+        </div> : null
     )
   }
 }
