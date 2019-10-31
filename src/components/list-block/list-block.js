@@ -23,26 +23,25 @@ class ListBlock extends Component {
   }
   render() {
     return (
-      this.props.activityCateInfo && this.props.activityCateInfo.length > 0 ?
-        this.props.activityCateInfo.map((item, index) => (
+      this.props.activityCateInfo && this.props.activityCateInfo.length &&
+      this.props.activityCateInfo.map((item, index) => (
 
-          item.mData[0].actCode ?
-            <div className="block" key={index}>
-              <h3 className="block_title">{item.mTitle}<small>查看更多</small></h3>
-              <MainNode nodes={this.sliceArrar(item.mData, 0, 1)}></MainNode>
-              <NodeList nodes={this.sliceArrar(item.mData, 1, item.mData.length)}></NodeList>
-              <div className="border-bottom"></div>
-            </div> : 
-            
-            <div className="block" key={index}>
-              <h3 className="block_title">{item.mTitle}<small>查看更多</small></h3>
-                <OnlyNodeList nodes={item.mData}></OnlyNodeList>
-              <div className="border-bottom"></div>
-            </div>
+        item.mData[0].actCode ?
+          <div className="block" key={index}>
+            <h3 className="block_title">{item.mTitle}<small>查看更多</small></h3>
+            <MainNode nodes={this.sliceArrar(item.mData, 0, 1)}></MainNode>
+            <NodeList nodes={this.sliceArrar(item.mData, 1, item.mData.length)}></NodeList>
+            <div className="border-bottom"></div>
+          </div> :
+
+          <div className="block" key={index}>
+            <h3 className="block_title">{item.mTitle}<small>查看更多</small></h3>
+            <OnlyNodeList nodes={item.mData}></OnlyNodeList>
+            <div className="border-bottom"></div>
+          </div>
 
 
-        ))
-        : null
+      ))
     )
   }
 }

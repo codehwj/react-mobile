@@ -20,7 +20,7 @@ class User extends Component {
       this.setState({
         data: result.list
       })
-      
+
     })
   }
 
@@ -38,11 +38,11 @@ class User extends Component {
           </Item>
         </List>
         {
-          this.state.data && this.state.data.length > 0 ?
+          this.state.data && this.state.data.length &&
           this.state.data.map((list, index) => (
             <List renderHeader={() => list.renderHeader} key={index}>
               {
-                list.item && list.item.length > 0 ? 
+                list.item && list.item.length &&
                 list.item.map((item, key) => (
                   <Item
                     key={key}
@@ -50,12 +50,12 @@ class User extends Component {
                     arrow="horizontal"
                     onClick={() => { }}
                   >{item.title}</Item>
-                )) : null
+                ))
               }
             </List>
-          )): null
+          ))
         }
-        </div>
+      </div>
     )
   }
 }

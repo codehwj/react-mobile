@@ -91,19 +91,19 @@ class Classify extends Component {
         indicator={this.state.down ? {} : { deactivate: '上拉可以刷新' }}
         direction={this.state.down ? 'down' : 'up'}
         refreshing={this.state.refreshing}
-        onRefresh={() => {this.refreshClassify()}}
+        onRefresh={() => { this.refreshClassify() }}
       >
         <div className="classify" style={{ backgroundColor: "#fff" }}>
-          <div> 
+          <div>
             {
-              this.state.category ?
-                <Category categorys={this.state.category} onClickCategoryItem={(cate, index) => { this.clickCategoryItem(cate, index) }}></Category> : null
+              this.state.category &&
+              <Category categorys={this.state.category} onClickCategoryItem={(cate, index) => { this.clickCategoryItem(cate, index) }}></Category>
             }
             {
-              this.state.categoryList ?
-                <WingBlank size="md">
-                  <ListView List={this.state.categoryList}></ListView>
-                </WingBlank> : null
+              this.state.categoryList &&
+              <WingBlank size="md">
+                <ListView List={this.state.categoryList}></ListView>
+              </WingBlank>
             }
           </div>
         </div>

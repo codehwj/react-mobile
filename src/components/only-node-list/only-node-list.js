@@ -19,28 +19,27 @@ export default class OnlyNodeList extends Component {
 
   render() {
     return (
-      this.props.nodes.length > 0 ?
-        <div className="node-list" >
-          <div className="wrapper" style={{ width: this.getWrapperWidth(this.props.nodes.length) }}>
-            {
-              this.props.nodes.map((node, index) => (
-                <div className="node node--activity vertical" key={index}>
-                  <div className="thumbnail" style={{ backgroundImage: `url(${node.filmImg})` }}>
-                    <div className="thumbnail__hot">
-                      <span>{node.scoreD}</span>
-                  </div>
-                  </div>
-                  <div className="main">
-                    <h1 className="title">{node.filmName}</h1>
+      this.props.nodes.length &&
+      <div className="node-list" >
+        <div className="wrapper" style={{ width: this.getWrapperWidth(this.props.nodes.length) }}>
+          {
+            this.props.nodes.map((node, index) => (
+              <div className="node node--activity vertical" key={index}>
+                <div className="thumbnail" style={{ backgroundImage: `url(${node.filmImg})` }}>
+                  <div className="thumbnail__hot">
+                    <span>{node.scoreD}</span>
                   </div>
                 </div>
-              ))
-            }
+                <div className="main">
+                  <h1 className="title">{node.filmName}</h1>
+                </div>
+              </div>
+            ))
+          }
 
 
-          </div>
         </div>
-        : null
+      </div>
 
     )
   }

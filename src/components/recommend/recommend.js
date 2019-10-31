@@ -17,38 +17,37 @@ class Recommend extends Component {
     return (
       <div >
         {
-          this.props.mktInfo.length > 0 ?
-            <div className="recommend">
-              <div className="main">
-                {
-                  this.props.mktInfo.filter(item => item.msStartTime && item.nextStartTime).map((item, index) => (
-                    <div className="item" key={index}>
-                      <div className="img" style={{ backgroundImage: `url(${item.imgUrl})` }}></div>
-                      <h4 className="title">{item.actTitle}</h4>
-                      <Countdown time={item.nextStartTime}></Countdown>
-                      <div className="next">{item.nextStartTime}</div>
-                    </div>
-                  ))
-                }
-              </div>
-              <div className="minor">
-                {
-                  this.props.mktInfo.filter(item => !item.msStartTime && !item.nextStartTime).map((item, index) => (
-                    <div className="item" key={index}>
-                      <div className="left">
-                        <h4 className="title">{item.actTitle}</h4>
-                        {
-                          item.acRemark.length ?
-                            <div className="remark">{item.acRemark}</div> : ""
-                        }
-                      </div>
-                      <div className="img" style={{ backgroundImage: `url(${item.imgUrl})` }}></div>
-                    </div>
-                  ))
-                }
-              </div>
+          this.props.mktInfo.length &&
+          <div className="recommend">
+            <div className="main">
+              {
+                this.props.mktInfo.filter(item => item.msStartTime && item.nextStartTime).map((item, index) => (
+                  <div className="item" key={index}>
+                    <div className="img" style={{ backgroundImage: `url(${item.imgUrl})` }}></div>
+                    <h4 className="title">{item.actTitle}</h4>
+                    <Countdown time={item.nextStartTime}></Countdown>
+                    <div className="next">{item.nextStartTime}</div>
+                  </div>
+                ))
+              }
             </div>
-            : null
+            <div className="minor">
+              {
+                this.props.mktInfo.filter(item => !item.msStartTime && !item.nextStartTime).map((item, index) => (
+                  <div className="item" key={index}>
+                    <div className="left">
+                      <h4 className="title">{item.actTitle}</h4>
+                      {
+                        item.acRemark.length ?
+                          <div className="remark">{item.acRemark}</div> : ""
+                      }
+                    </div>
+                    <div className="img" style={{ backgroundImage: `url(${item.imgUrl})` }}></div>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
         }
 
       </div>
@@ -81,7 +80,7 @@ class Countdown extends Component {
     })
   }
   componentDidMount() {
-    this.Interval =  setInterval(() => {
+    this.Interval = setInterval(() => {
       this.getDateSpace();
     }, 1000);
   }
@@ -92,14 +91,13 @@ class Countdown extends Component {
     return (
       <div>
         {
-          this.state.actionSpaceTime && Object.keys(this.state.actionSpaceTime).length ? 
-          <div className="countDown">
+          this.state.actionSpaceTime && Object.keys(this.state.actionSpaceTime).length &&
+          < div className="countDown">
             <span>{this.state.actionSpaceTime.days}</span>天
             <span>{this.state.actionSpaceTime.hours}</span>:
             <span>{this.state.actionSpaceTime.minutes}</span>:
             <span>{this.state.actionSpaceTime.seconds}</span>
           </div>
-          : null
         }
       </div>
     )

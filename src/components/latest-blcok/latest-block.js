@@ -15,8 +15,8 @@ export default class LatestBlock extends Component {
 
   filterTabsTitle() {
     let tab = this.props.activitySevenInfo.map((item, index) => {
-      return {title: (<span className="tab-item">{item.title}</span>)}  
-    })  
+      return { title: (<span className="tab-item">{item.title}</span>) }
+    })
     this.setState({
       tabs: tab
     })
@@ -34,15 +34,15 @@ export default class LatestBlock extends Component {
         <h3 className="block_title">七日演出<small>演出日历</small></h3>
         <Tabs tabs={this.state.tabs}
           initialPage={1}
-          animated={false} 
+          animated={false}
           useOnPan={false}
           swipeable={false}
         >
           {
-            this.props.activitySevenInfo ? 
-            this.props.activitySevenInfo.map((item, index) => (
-                <NodeList nodes={item.list} key={index}>1212</NodeList>
-            )) : null
+            this.props.activitySevenInfo && this.props.activitySevenInfo.map((item, index) => (
+
+              item.list.length && <NodeList nodes={item.list} key={index}>1212</NodeList>
+            ))
           }
         </Tabs>
         <div className="border-bottom"></div>

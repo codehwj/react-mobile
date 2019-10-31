@@ -19,12 +19,11 @@ export default class FavoursBlock extends Component {
 
   render() {
     return (
-      this.props.activityLikeInfo.length > 0 ?
-        <div className="block favours">
-          <h3 className="block__title">{this.state.block__title}</h3>
-          <ListView List={this.props.activityLikeInfo}></ListView>
-        </div> :
-        null
+      this.props.activityLikeInfo.length &&
+      <div className="block favours">
+        <h3 className="block__title">{this.state.block__title}</h3>
+        <ListView List={this.props.activityLikeInfo}></ListView>
+      </div>
     )
   }
 }

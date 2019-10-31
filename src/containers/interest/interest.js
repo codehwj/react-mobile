@@ -32,20 +32,19 @@ class Info extends Component {
       <div className="main">
         <List renderHeader={() => this.state.listHeader} className="my-list">
           {
-            this.state.data && this.state.data.length > 0 ?
+            this.state.data && this.state.data.length &&
             this.state.data.map(item => (
               <Item
                 key={item.id}
                 arrow="horizontal"
                 thumb={item.img}
                 multipleLine
-                onClick={() => { console.log(item ) }}
+                onClick={() => { console.log(item) }}
               >
                 <h5 style={{ marginTop: 5, marginBottom: 5 }}>{item.title}</h5>
                 <Brief>{item.subtitle}</Brief>
               </Item>
             ))
-               : null
           }
         </List>
       </div>

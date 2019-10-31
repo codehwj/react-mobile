@@ -12,7 +12,7 @@ export default class Category extends Component {
       activeIndex: 0
     }
     if (props.hasOwnProperty("onClickCategoryItem")) {
-      props.onClickCategoryItem(props.categorys[0], 0); 
+      props.onClickCategoryItem(props.categorys[0], 0);
     }
   }
 
@@ -45,17 +45,17 @@ export default class Category extends Component {
     return (
       <div className="categories">
         {
-          this.props.categorys ?
-            <div className="wrapper" style={{ width: this.getWrapperWidth(this.props.categorys.length) }}>
-              {
-                this.props.categorys.map((item, index) => (
-                  <div className={this.state.activeIndex === index? "item active" : "item"} onClick={() => {this.clickCategory(item, index)}} key={index}>
-                    <span className="cate-icon yanchanghui"></span>
-                    {item.title}
-                  </div>
-                ))
-              }
-            </div> : null
+          this.props.categorys &&
+          <div className="wrapper" style={{ width: this.getWrapperWidth(this.props.categorys.length) }}>
+            {
+              this.props.categorys.map((item, index) => (
+                <div className={this.state.activeIndex === index ? "item active" : "item"} onClick={() => { this.clickCategory(item, index) }} key={index}>
+                  <span className="cate-icon yanchanghui"></span>
+                  {item.title}
+                </div>
+              ))
+            }
+          </div>
         }
       </div>
     )

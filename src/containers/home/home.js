@@ -29,7 +29,7 @@ class Home extends Component {
   async getAllHomeData() {
     let url = `/ajax/home/index?`;
     // const response = await DataClass.mockdata('/home/getAllHomeData', {})
-    const response = await fetchGET(url, {cityCode: "021" });
+    const response = await fetchGET(url, { cityCode: "021" });
     if (response.code === '200') {
       this.setState({
         result: response.result
@@ -52,6 +52,8 @@ class Home extends Component {
 
 
   render() {
+    console.log(this.state.result);
+
     return (
       this.state.result ?
         <div className="main">
