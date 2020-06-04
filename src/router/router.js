@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {
   BrowserRouter,
+  HashRouter,
   Route,
   Switch
 } from 'react-router-dom'
@@ -17,14 +18,14 @@ class Routers extends Component {
 
   render(h) {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route path="/Login" component={Login}></Route>
           <Route path="/Register" component={Register}></Route>
           {/* <Route path="/goodsDetail/:goodsId" component={GoodsDetail}></Route> */}
           <Route component={DashBoard}></Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }

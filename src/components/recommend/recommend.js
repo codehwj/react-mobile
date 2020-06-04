@@ -25,8 +25,11 @@ class Recommend extends Component {
                   <div className="item" key={index}>
                     <div className="img" style={{ backgroundImage: `url(${item.imgUrl})` }}></div>
                     <h4 className="title">{item.actTitle}</h4>
+                    {/* <Countdown time={item.nextStartTime}></Countdown> */}
+                    {/* <Countdown time={moment(item.nextStartTime).diff(moment(new Date(),"seconds"))}></Countdown> */}
                     <Countdown time={item.nextStartTime}></Countdown>
                     <div className="next">{item.nextStartTime}</div>
+
                   </div>
                 ))
               }
@@ -69,11 +72,13 @@ class Countdown extends Component {
     let formatStr = `YYYY-MM-DD HH:mm:ss`
     let currentTime = moment().format(formatStr);
     let duration = moment.duration(moment(time, formatStr).diff(currentTime));
+    
     let actionSpaceTime = {
-      days: duration.get('days'),
-      hours: duration.get('hours'),
-      minutes: duration.get('minutes'),
-      seconds: duration.get('seconds')
+      // days: duration.get('days'),
+      days: moment(time, formatStr).diff(currentTime, "days"),
+      hours: `${duration.get('hours')}`.length === 1 ? `0${duration.get('hours')}` : duration.get('hours'),
+      minutes: `${duration.get('minutes')}`.length === 1 ? `0${duration.get('minutes')}` : duration.get('minutes'),
+      seconds: `${duration.get('seconds')}`.length === 1 ? `0${duration.get('seconds')}` : duration.get('seconds')
     }
     this.setState({
       actionSpaceTime: actionSpaceTime

@@ -34,5 +34,7 @@ export async function fetchGET(url, param) {
 export default {
   async mockdata(url, params) {
     return await fetchPOST(url, params);
-  }
+  },
+  fetchPOST: fetchPOST,
+  fetchGET: fetchGET
 }

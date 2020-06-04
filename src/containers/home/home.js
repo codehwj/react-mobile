@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { fetchGET } from 'jscommon/DataClass';
+import DataClass from 'jscommon/DataClass';
 import { Carousel, WingBlank, WhiteSpace } from 'antd-mobile'
 import Recomment from '../../components/recommend/recommend'
 import ListBlock from '../../components/list-block/list-block'
@@ -27,9 +27,9 @@ class Home extends Component {
   }
 
   async getAllHomeData() {
-    let url = `/ajax/home/index?`;
-    // const response = await DataClass.mockdata('/home/getAllHomeData', {})
-    const response = await fetchGET(url, { cityCode: "021" });
+    // let url = `/ajax/home/index?`;
+    const response = await DataClass.mockdata('/home/getAllHomeData', {})
+    // const response = await fetchGET(url, { cityCode: "021" });
     if (response.code === '200') {
       this.setState({
         result: response.result

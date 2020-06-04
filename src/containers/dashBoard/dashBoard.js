@@ -24,10 +24,10 @@ class DashBoard extends Component {
 
   }
   render(h) {
-    const { pathname } = this.props.location;
+    var { pathname } = this.props.location;
     const { navList, RedirectRouter } = routeConfig;
     console.log(this.higt);
-
+    
     return (
       <div style={{ position: "reletive" }}>
         {
