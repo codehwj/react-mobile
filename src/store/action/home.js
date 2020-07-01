@@ -14,7 +14,7 @@ export function loadStoreListView() {
       let lastLength = Object.keys(listData).length || 0;
       let obj = arrarTurnObject(data, lastLength);
       listData = { ...listData, ...obj };
-      console.log(listData);
+      
       dataSource = dataSource.cloneWithRows(listData);
       const homeStoreList = {
         dataSource: dataSource,
